@@ -234,23 +234,6 @@ streamlit run dashboard/app.py
 python scheduler/cron.py
 ```
 
----
-
-## Build Log
-
-| Week | Dates | Milestone | Status |
-|---|---|---|---|
-| W1 | May 1–7 | Resume ETL + Qdrant setup + JD parser | 🔄 In Progress |
-| W2 | May 8–14 | Job search agent + PostgreSQL schema | ⬜ Upcoming |
-| W3 | May 15–21 | Scoring engine + gap extractor + ranking | ⬜ Upcoming |
-| W4 | May 22–28 | Resume tailor + cover letter + PDF output | ⬜ Upcoming |
-| W5 | May 29–Jun 4 | Mock interview loop + evaluator + candidate model | ⬜ Upcoming |
-| W6 | Jun 5–11 | Morning report + APScheduler + email digest | ⬜ Upcoming |
-| W7 | Jun 12–18 | Streamlit dashboard + LangSmith + AWS deploy | ⬜ Upcoming |
-| W8 | Jun 19–25 | Demo video + LinkedIn post + v1.0 release | ⬜ Upcoming |
-
----
-
 ## The Story Behind This
 
 I built JobPilot for myself. As an MS Data Science student actively job hunting, I was spending hours every day doing the same repetitive things - scanning job boards, copy-pasting resumes, rewriting cover letters, and still going into interviews underprepared.
