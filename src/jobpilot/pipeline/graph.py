@@ -26,6 +26,11 @@ from jobpilot.agents.interview_agent import evaluate_answer, generate_questions
 from jobpilot.candidate_model.model import CandidateModelManager
 from jobpilot.candidate_model.updater import CandidateModelUpdater
 
+# Setup LangSmith if configured
+_LANGSMITH_ENABLED = bool(os.getenv("LANGSMITH_API_KEY"))
+if _LANGSMITH_ENABLED:
+    os.environ.setdefault("LANGSMITH_PROJECT", "jobpilot")
+
 
 # ---------------------------------------------------------------------------
 # State
