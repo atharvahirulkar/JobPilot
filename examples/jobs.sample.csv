@@ -1,0 +1,4 @@
+title,company,location,description,source,url
+Data Scientist,Acme Analytics,Remote,"Python; SQL; experimentation; machine learning; A/B testing",demo,https://example.com/jobs/data-scientist
+Machine Learning Engineer,Beta Systems,San Francisco,"Python; model deployment; Docker; AWS; feature stores",demo,https://example.com/jobs/ml-engineer
+Analytics Engineer,Gamma Labs,Remote,"SQL; dbt; analytics; stakeholder communication; dashboards",demo,https://example.com/jobs/analytics-engineer

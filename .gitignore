@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment / secrets - NEVER commit
+.env
+.env.local
+.env.*.local
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Databases - local dev SQLite files
+*.db
+*.sqlite3
+
+# Outputs - generated PDFs, tailored resumes, cover letters
+outputs/
+
+# Data - personal resume (never commit)
+data/master_resume.pdf
+data/master_resume.txt
+
+# LaTeX compile byproducts (template .tex stays tracked)
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Qdrant local storage
+qdrant_storage/
+
+# LangGraph checkpoints
+langgraph_checkpoint.db
+
+# Temporary scratch files
+tmp_*.json
+tmp_*.txt
+*.tmp
+
+# Personal / not for repo
+prompt.txt
+W2_INTEGRATION.md
