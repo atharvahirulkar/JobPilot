@@ -1,3 +1,68 @@
+JobPilot — Autonomous Career Agent (W1 scaffold)
+
+This folder contains the Week 1 scaffold for JobPilot: Resume ETL, JD parser, and Qdrant setup.
+
+W1 goals (May 1–7):
+- Resume ETL (PDF -> text -> spaCy parse)
+- Job Description (JD) parser (title, skills, description extraction)
+- Qdrant client setup and collection initializer
+- Local-first structured JD parsing with Ollama fallback
+- Local scoring engine for resume↔JD ranking
+- Qdrant-backed job repository + demo ranking flow
+
+Quick start
+1. Create a venv and install:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python -m spacy download en_core_web_sm
+```
+
+2. Run the CLI:
+
+```bash
+python -m jobpilot.main --help
+```
+
+Local model option:
+
+```bash
+ollama pull llama3.1:8b
+export JOBPILOT_LLM_PROVIDER=local
+export JOBPILOT_LLM_MODEL=llama3.1:8b
+python -m jobpilot.main parse_jd_llm path/to/jd.txt
+```
+
+Score a resume against a JD locally:
+
+```bash
+python -m jobpilot.main score path/to/resume.txt path/to/jd.txt
+```
+
+Run the end-to-end demo with a JSON or CSV jobs file:
+
+```bash
+python -m jobpilot.main demo path/to/resume.txt path/to/jobs.json
+```
+
+Example inputs are available in `examples/jobs.sample.json` and `examples/jobs.sample.csv`.
+
+All job inputs are normalized to a canonical schema before ingestion:
+`job_id`, `title`, `company`, `location`, `description`, `source`, `url`, `skills`, `responsibilities`.
+Duplicate jobs are dropped using a stable fingerprint over the normalized fields.
+
+Files of interest:
+- `jobpilot/src/jobpilot/etl.py` — resume ETL skeleton
+- `jobpilot/src/jobpilot/jd_parser.py` — JD parsing helpers
+- `jobpilot/src/jobpilot/qdrant_setup.py` — qdrant client init
+- `jobpilot/src/jobpilot/main.py` — simple CLI to exercise modules
+- `jobpilot/src/jobpilot/llm_parser.py` — local-first structured JD parser
+- `jobpilot/src/jobpilot/scoring.py` — local scoring engine
+- `jobpilot/src/jobpilot/job_store.py` — Qdrant-backed job repository
+
+Next steps (W2): job search agent + PostgreSQL schema.
 # 🤖 JobPilot
 
 > **Your autonomous career agent.** Searches while you sleep. Preps while you wake.

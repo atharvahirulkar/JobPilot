@@ -1,0 +1,180 @@
+%-------------------------
+% Atharva Hirulkar — General ATS Resume
+%-------------------------
+
+\documentclass[letterpaper,10.5pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{geometry}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\geometry{
+  letterpaper,
+  top=0.38in,
+  bottom=0.38in,
+  left=0.5in,
+  right=0.5in
+}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\normalsize
+}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{-2pt}}}
+}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-6pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-6pt}
+}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-4pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{flushleft}
+    {\LARGE \textbf{Atharva Hirulkar}}
+\end{flushleft}
+\vspace{3pt}
+\noindent
+\href{mailto:atharvahirulkar.010@gmail.com}{\faEnvelope\ atharvahirulkar.010@gmail.com}
+\hfill
+\href{tel:+19495622657}{\faPhone\ +1 949 562-2657}
+\hfill
+\href{https://www.linkedin.com/in/atharva-hirulkar/}{\faLinkedin\ atharva-hirulkar}
+\hfill
+\href{https://atharvahirulkar.github.io/}{\faGlobe\ atharvahirulkar.github.io}
+
+\vspace{5pt}
+\noindent{\normalsize Data Scientist $|$ ML Engineer $|$ Agentic AI}
+\vspace{3pt}
+\noindent\rule{\textwidth}{1.5pt}
+\vspace{2pt}
+\noindent\small\textit{I build LLM-powered data pipelines and AI-driven automation systems that streamline complex workflows at production scale.}
+\vspace{-6pt}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of California, San Diego}{San Diego, CA}
+      {Master of Science, Data Science -- GPA 3.8/4.0}{Sept 2025 -- In Progress}
+      \resumeItemListStart
+        \resumeItem{Coursework: ML Systems, Statistical NLP, Scalable Data Systems, Advanced Data Mining, Optimization}
+      \resumeItemListEnd
+    \vspace{3pt}
+    \resumeSubheading
+      {Savitribai Phule Pune University}{Pune, India}
+      {Bachelor of Engineering, Computer Engineering -- GPA 3.91/4.0}{Aug 2019 -- Jun 2023}
+  \resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{AI \& ML:} Python, PyTorch, TensorFlow, Scikit-learn, XGBoost, LightGBM, MLflow, LLMs, RAG, Prompt Engineering, OpenAI API, Claude API, LangChain, Agentic Workflows, NLP \\[2pt]
+     \textbf{Data Engineering:} Apache Kafka, PySpark, Snowflake, PostgreSQL, TimescaleDB, Neo4j, Qdrant, FAISS, Airflow, ETL/ELT, SQL \\[2pt]
+     \textbf{Cloud \& DevOps:} AWS, Azure, OCI, Terraform, Ansible, Docker, Kubernetes, GitHub Actions, CI/CD \\[2pt]
+     \textbf{Backend \& Observability:} FastAPI, Flask, Node.js, REST APIs, Microservices, Grafana, Prometheus, Linux, Shell/Bash
+    }}
+ \end{itemize}
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+
+    \resumeProjectHeading
+      {\textbf{FraudLens} $|$ \emph{XGBoost, LightGBM, PyTorch, GPT-4o-mini, Qdrant, FastAPI, AWS ECS Fargate, Airflow, MLflow} $|$ \href{https://github.com/atharvahirulkar/fraudlens}{\faLink}}{}
+      \resumeItemListStart
+        \resumeItem{Built end-to-end AI decision system for financial trade data: XGBoost/LightGBM ensemble plus PyTorch model identifying risk signals; GPT-4o-mini agentic explanation layer with Qdrant RAG pipeline generating SHAP-grounded per-transaction diagnostics; deployed on AWS ECS Fargate with GitHub Actions CI/CD and nightly Airflow batch scoring.}
+      \resumeItemListEnd
+    \vspace{3pt}
+    \resumeProjectHeading
+      {\textbf{SignalStack} $|$ \emph{Kafka, PySpark, PyTorch, TimescaleDB, FastAPI, MLflow, Grafana, Prometheus, Docker, GitHub Actions} $|$ \href{https://github.com/atharvahirulkar/SignalStack}{\faLink}}{}
+      \resumeItemListStart
+        \resumeItem{Designed real-time market data platform: Kafka ingestion, PySpark structured streaming with point-in-time correct windowed features, TimescaleDB storage, PyTorch model serving at \textbf{$<$10ms p99} sustaining \textbf{$>$1,000 events/sec}; MLflow registry with PSI drift monitoring and Grafana/Prometheus observability stack.}
+      \resumeItemListEnd
+    \vspace{3pt}
+    \resumeProjectHeading
+      {\textbf{JobPilot} $|$ \emph{FastAPI, LLMs, RAG, FAISS, BM25, OpenAI, Claude, Gemini, LangChain, MLflow, PostgreSQL} $|$ \href{https://github.com/atharvahirulkar/JobPilot}{\faLink}}{}
+      \resumeItemListStart
+        \resumeItem{Architected stateful LLM agent with persistent memory, multi-step planning, and tool-use; hybrid FAISS dense and BM25 sparse retrieval over PostgreSQL; LLM-as-judge evaluation framework benchmarking GPT-4o, Claude 3.5 Sonnet, and Gemini 1.5 Pro across accuracy and latency; closed-loop MLflow improvement pipeline.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {State Street Corporation}{Bengaluru, India}
+      {Senior Associate, Platform Engineering}{Apr 2025 -- Aug 2025}
+      \resumeItemListStart
+        \resumeItem{Led cloud infrastructure automation for DB migration across \textbf{150+ application teams} via Terraform IaC on OCI and Azure; implemented IAM policies, role-based access controls, authentication workflows, and user provisioning across migrated environments, ensuring compliance with financial data security standards.}
+        \resumeItem{Built Ansible automation reducing operational overhead by \textbf{$\sim$40\%}; Azure DevOps CI/CD pipelines cutting release cycles by \textbf{40\%} with \textbf{99.8\% deployment success}; sustained \textbf{99.9\%+ uptime} across distributed production systems.}
+      \resumeItemListEnd
+    \vspace{3pt}
+    \resumeSubheading
+      {State Street Corporation}{Bengaluru, India}
+      {Associate 2, Platform Engineering}{Jul 2023 -- Mar 2025}
+      \resumeItemListStart
+        \resumeItem{Engineered Snowflake ETL pipelines processing \textbf{5M+ records/day} at \textbf{99.9\%+ SLA}; provisioned multi-cloud environments (OCI, AWS, Azure) cutting provisioning time by \textbf{$\sim$50\%}; orchestrated scheduling via Airflow DAGs.}
+      \resumeItemListEnd
+    \vspace{3pt}
+    \resumeSubheading
+      {State Street Corporation}{Hyderabad, India}
+      {Intern, Cash and Fund Accounting}{Jan 2023 -- Jun 2023}
+      \resumeItemListStart
+        \resumeItem{Built real-time monitoring for \textbf{$\sim$\$1B daily transaction flows} across LYNX, CHIPS, and TARGET2; achieved \textbf{98\% failure detection within 30 seconds}; raised ISO 20022 validation accuracy from \textbf{96\% to 99.4\%}.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+      OCI Architect Associate $|$ OCI Foundations Associate $|$ Neo4j Graph Data Science $|$ Qdrant Vector DB Essentials $|$ JP Morgan Quantitative Research
+    }}
+ \end{itemize}
+
+\end{document}
