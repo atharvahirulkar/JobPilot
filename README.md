@@ -1,68 +1,3 @@
-JobPilot — Autonomous Career Agent (W1 scaffold)
-
-This folder contains the Week 1 scaffold for JobPilot: Resume ETL, JD parser, and Qdrant setup.
-
-W1 goals (May 1–7):
-- Resume ETL (PDF -> text -> spaCy parse)
-- Job Description (JD) parser (title, skills, description extraction)
-- Qdrant client setup and collection initializer
-- Local-first structured JD parsing with Ollama fallback
-- Local scoring engine for resume↔JD ranking
-- Qdrant-backed job repository + demo ranking flow
-
-Quick start
-1. Create a venv and install:
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-python -m spacy download en_core_web_sm
-```
-
-2. Run the CLI:
-
-```bash
-python -m jobpilot.main --help
-```
-
-Local model option:
-
-```bash
-ollama pull llama3.1:8b
-export JOBPILOT_LLM_PROVIDER=local
-export JOBPILOT_LLM_MODEL=llama3.1:8b
-python -m jobpilot.main parse_jd_llm path/to/jd.txt
-```
-
-Score a resume against a JD locally:
-
-```bash
-python -m jobpilot.main score path/to/resume.txt path/to/jd.txt
-```
-
-Run the end-to-end demo with a JSON or CSV jobs file:
-
-```bash
-python -m jobpilot.main demo path/to/resume.txt path/to/jobs.json
-```
-
-Example inputs are available in `examples/jobs.sample.json` and `examples/jobs.sample.csv`.
-
-All job inputs are normalized to a canonical schema before ingestion:
-`job_id`, `title`, `company`, `location`, `description`, `source`, `url`, `skills`, `responsibilities`.
-Duplicate jobs are dropped using a stable fingerprint over the normalized fields.
-
-Files of interest:
-- `jobpilot/src/jobpilot/etl.py` — resume ETL skeleton
-- `jobpilot/src/jobpilot/jd_parser.py` — JD parsing helpers
-- `jobpilot/src/jobpilot/qdrant_setup.py` — qdrant client init
-- `jobpilot/src/jobpilot/main.py` — simple CLI to exercise modules
-- `jobpilot/src/jobpilot/llm_parser.py` — local-first structured JD parser
-- `jobpilot/src/jobpilot/scoring.py` — local scoring engine
-- `jobpilot/src/jobpilot/job_store.py` — Qdrant-backed job repository
-
-Next steps (W2): job search agent + PostgreSQL schema.
 # 🤖 JobPilot
 
 > **Your autonomous career agent.** Searches while you sleep. Preps while you wake.
@@ -70,7 +5,7 @@ Next steps (W2): job search agent + PostgreSQL schema.
 ![Status](https://img.shields.io/badge/status-in%20development-yellow)
 ![Python](https://img.shields.io/badge/python-3.11-blue)
 ![LangGraph](https://img.shields.io/badge/LangGraph-0.2-purple)
-![AWS](https://img.shields.io/badge/AWS-ECS%20Fargate-orange)
+![Deployment](https://img.shields.io/badge/Deployment-Local-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ---
@@ -115,9 +50,14 @@ tailored application materials, and a mock interview session loaded for your top
 
 ## Demo
 
-> *Demo video and live dashboard screenshots coming W7 (Jun 2026)*
+**Live Dashboard - Run Locally:**
 
-**Morning Report Preview:**
+```bash
+python -m jobpilot.main dashboard
+# → http://localhost:8501
+```
+
+**Morning Report Example:**
 ```
 Good morning. Here's your June 10 job brief.
 
@@ -140,7 +80,7 @@ Top Pick: Staff Data Scientist - Meta (AI Infra)
 
 ```
 ┌─────────────────────────────────┐
-│    AWS EventBridge (5 AM cron)  │
+│  APScheduler (5 AM cron) / CLI  │
 └────────────────┬────────────────┘
                  │
 ┌────────────────▼────────────────┐
@@ -153,8 +93,8 @@ Top Pick: Staff Data Scientist - Meta (AI Infra)
 │ Search  │ │Engine  │ │ + Cover Letter │
 │ Agent   │ │        │ │   Generator    │
 │         │ │LLM     │ │                │
-│7 portals│ │0-100 + │ │PDF via         │
-│Playwright│ │gaps    │ │WeasyPrint      │
+│7 portals│ │0-100 + │ │LaTeX → PDF     │
+│Playwright│ │gaps    │ │via WeasyPrint  │
 │+SerpAPI │ │        │ │                │
 └────┬────┘ └───┬────┘ └───────┬────────┘
      │          │              │
@@ -171,6 +111,7 @@ Top Pick: Staff Data Scientist - Meta (AI Infra)
                     │
         ┌───────────▼───────────────┐
         │   Mock Interview Engine   │
+        │   (LangGraph interrupt)   │
         │                           │
         │ Question Gen → Answer     │
         │ → LLM-as-judge → Update   │
@@ -213,11 +154,9 @@ Top Pick: Staff Data Scientist - Meta (AI Infra)
 | Job scraping | Playwright + SerpAPI + RapidAPI |
 | PDF generation | WeasyPrint |
 | Observability | LangSmith - every agent node traced end-to-end |
-| API | FastAPI |
-| Frontend | Streamlit - job tracker · skill heatmap · mock interview UI |
-| Scheduler | APScheduler + AWS EventBridge (5 AM cron) |
-| Deployment | AWS ECS Fargate |
-| CI/CD | GitHub Actions - push to main → ECR → ECS deploy |
+| Frontend | Streamlit - job tracker · skill heatmap · mock interview UI · morning report |
+| Scheduler | APScheduler - 5 AM cron (local) + manual CLI |
+| Deployment | Local (Linux/macOS) or Docker |
 | Language | Python 3.11 |
 
 ---
@@ -226,38 +165,53 @@ Top Pick: Staff Data Scientist - Meta (AI Infra)
 
 ```
 jobpilot/
-├── agents/
-│   ├── job_search_agent.py      # Multi-portal scraper + LLM extractor
-│   ├── scoring_agent.py         # Resume↔JD alignment + gap extraction
-│   ├── resume_tailor.py         # Bullet rewriter + cover letter gen
-│   ├── interview_agent.py       # Question gen + LLM-as-judge evaluator
-│   └── report_agent.py          # Morning report + email sender
-├── rag/
-│   ├── ingest.py                # Resume + JD → Qdrant (hybrid index)
-│   ├── retriever.py             # Hybrid BM25 + dense retrieval
-│   └── reranker.py              # Cross-encoder reranking
-├── candidate_model/
-│   ├── model.py                 # Skill scores · gaps · STAR stories
-│   └── updater.py               # Post-session update logic
-├── pipeline/
-│   └── graph.py                 # LangGraph state machine definition
-├── scheduler/
-│   └── cron.py                  # APScheduler 5 AM cron job
-├── api/
-│   └── main.py                  # FastAPI endpoints
-├── dashboard/
-│   └── app.py                   # Streamlit UI
-├── outputs/
-│   └── jobs/                    # Per-job: tailored resume + cover letter PDFs
+├── src/jobpilot/
+│   ├── agents/
+│   │   ├── job_search_agent.py      # Multi-portal scraper + LLM extractor
+│   │   ├── scoring_agent.py         # Resume↔JD alignment + gap extraction
+│   │   ├── interview_agent.py       # Question gen + LLM-as-judge evaluator
+│   │   └── report_agent.py          # Morning report + email sender
+│   ├── rag/
+│   │   ├── ingest.py                # Resume + JD → Qdrant (hybrid index)
+│   │   ├── retriever.py             # Hybrid BM25 + dense retrieval
+│   │   └── reranker.py              # Cross-encoder reranking
+│   ├── candidate_model/
+│   │   ├── model.py                 # Skill scores · gaps · STAR stories
+│   │   └── updater.py               # Post-session update logic
+│   ├── pipeline/
+│   │   └── graph.py                 # LangGraph state machine + interview loop
+│   ├── scheduler/
+│   │   └── cron.py                  # APScheduler 5 AM cron job
+│   ├── dashboard/
+│   │   ├── app.py                   # Streamlit main app
+│   │   ├── pages_job_tracker.py     # Job ranking + details view
+│   │   ├── pages_skill_heatmap.py   # Candidate skill confidence scores
+│   │   ├── pages_interview.py       # Interview Q&A history + scores
+│   │   ├── pages_report.py          # Morning report display
+│   │   └── pages_settings.py        # Configuration UI
+│   ├── etl.py                       # Resume PDF → text parsing
+│   ├── jd_parser.py                 # Job description structuring
+│   ├── llm_parser.py                # Local-first JD parser with Ollama fallback
+│   ├── scoring.py                   # Local scoring engine
+│   ├── job_store.py                 # Qdrant-backed job repository
+│   ├── resume_tailor.py             # LLM-powered bullet rewriting
+│   ├── cover_letter.py              # LLM cover letter generation
+│   ├── pdf_generator.py             # LaTeX → PDF compilation
+│   ├── job_imports.py               # CSV/JSON job loading
+│   ├── qdrant_setup.py              # Qdrant client initialization
+│   └── main.py                      # CLI entry point
 ├── data/
-│   ├── master_resume.pdf        # Your resume (gitignored)
-│   └── preferences.yaml         # Roles · locations · salary · avoid list
-├── eval/
-│   └── ragas_eval.py            # RAG + answer quality metrics
-├── infra/
-│   └── setup-ecs.sh             # One-time AWS ECS bootstrap
-├── .github/
-│   └── workflows/deploy.yml     # CI/CD - build → ECR → ECS
+│   ├── master_resume.pdf            # Your resume (gitignored)
+│   └── resume_template.tex          # LaTeX resume template
+├── tests/
+│   ├── test_scoring_agent.py
+│   ├── test_cover_letter.py
+│   ├── test_resume_tailor.py
+│   ├── test_w4.py
+│   ├── test_w5.py
+│   └── test_w6.py
+├── outputs/
+│   └── jobs/                        # Per-job: tailored resume + cover letter PDFs
 ├── docker-compose.yml
 ├── Dockerfile
 ├── requirements.txt
@@ -269,34 +223,40 @@ jobpilot/
 
 ## Quickstart
 
-> **Prerequisites:** Python 3.11+ · Docker Desktop · OpenAI API key · SerpAPI key
+> **Prerequisites:** Python 3.11+ · PostgreSQL + Qdrant (Docker) · OpenAI API key
 
 ```bash
 # 1. Clone and install
-git clone https://github.com/atharvahirulkar/jobpilot.git
-cd jobpilot
+git clone https://github.com/atharvahirulkar/JobPilot.git
+cd JobPilot
+python -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
+python -m spacy download en_core_web_sm
 
-# 2. Configure
+# 2. Configure environment
 cp .env.example .env
 # Fill in: OPENAI_API_KEY · SERPAPI_KEY · DATABASE_URL · QDRANT_URL
 
 # 3. Start infrastructure
 docker compose up -d
-# PostgreSQL (5432) · Qdrant (6333) · MLflow (5001)
+# PostgreSQL (5432) · Qdrant (6333)
 
-# 4. Ingest your resume
-python rag/ingest.py --resume data/master_resume.pdf
+# 4. Run the full pipeline once
+python -m jobpilot.main run_pipeline
 
-# 5. Run the full pipeline manually
-python pipeline/graph.py --run-now
-
-# 6. Open the dashboard
-streamlit run dashboard/app.py
+# 5. Open the Streamlit dashboard
+python -m jobpilot.main dashboard
 # → http://localhost:8501
 
-# 7. Schedule the 5 AM cron (local)
-python scheduler/cron.py
+# 6. Schedule the 5 AM cron (Linux/macOS)
+python -m jobpilot.main schedule --hour 5 --minute 0
+
+# 7. Run a mock interview session
+python -m jobpilot.main interview path/to/jd.json --questions 4
+
+# 8. Check your skill confidence scores
+python -m jobpilot.main skills
 ```
 
 ## The Story Behind This
@@ -305,7 +265,7 @@ I built JobPilot for myself. As an MS Data Science student actively job hunting,
 
 So I automated it. Every layer of this system is something I use daily. The morning report, the tailored PDFs, the mock sessions - all of it runs while I sleep.
 
-> *"The cover letter you received was generated by it. Want to see the mock session it ran for this exact job description?"*
+> *"The application you received was generated by it. Want to see the mock session it ran for this exact job description?"*
 
 ---
 
