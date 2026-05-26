@@ -71,5 +71,3 @@ tmp_*.txt
 # Personal / not for repo
 prompt.txt
 W2_INTEGRATION.md
-data/*.pdf
-data/*.tex
