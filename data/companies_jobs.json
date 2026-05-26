@@ -1,0 +1,132 @@
+[
+  {
+    "id": "point72_1",
+    "company": "Point72",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Data Science role at Point72",
+    "location": "Stamford",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "tower_research_2",
+    "company": "Tower Research",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Data Science role at Tower Research",
+    "location": "New York",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "voleon_3",
+    "company": "Voleon",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Data Science role at Voleon",
+    "location": "Berkeley",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "jane_street_4",
+    "company": "Jane Street",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Data Science role at Jane Street",
+    "location": "New York",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "meta_5",
+    "company": "Meta",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Data Science role at Meta",
+    "location": "Menlo Park / NY",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "google_6",
+    "company": "Google",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Data Science role at Google",
+    "location": "Mountain View",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "nvidia_7",
+    "company": "NVIDIA",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Data Science role at NVIDIA",
+    "location": "Santa Clara",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "openai_8",
+    "company": "OpenAI",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Data Science role at OpenAI",
+    "location": "San Francisco",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "anthropic_9",
+    "company": "Anthropic",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Data Science role at Anthropic",
+    "location": "San Francisco",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "databricks_10",
+    "company": "Databricks",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Data Science role at Databricks",
+    "location": "San Francisco",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  }
+]
