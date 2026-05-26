@@ -1,0 +1,25 @@
+ATHARVA HIRULKAR
+San Diego, CA | atharva.21911090@viit.ac.in | LinkedIn: linkedin.com/in/atharva-hirulkar
+
+EDUCATION
+MS Data Science, UC San Diego (May 2026)
+- Coursework: Machine Learning, Statistical Learning, Big Data Systems, Advanced Algorithms
+
+EXPERIENCE
+
+Data Science Intern, TechCorp (Jan 2025 - Present)
+- Built LLM-powered resume tailoring pipeline that improved job match accuracy by 45%
+- Implemented LangGraph state machine for interview preparation with human-in-the-loop design
+- Scored 1000+ job descriptions against resume using semantic embeddings and LLM alignment
+- Developed PostgreSQL + Qdrant pipeline for vector search over job descriptions
+
+ML Engineer, StartupXYZ (Jun 2024 - Dec 2024)
+- Trained and deployed sentiment analysis model achieving 92% accuracy
+- Optimized PyTorch model inference from 200ms to 50ms latency
+- Created data pipeline processing 100K records/day using Apache Spark
+
+SKILLS
+Languages: Python, SQL, Bash
+ML/AI: PyTorch, LangGraph, LangChain, OpenAI API, Hugging Face
+Data: PostgreSQL, Qdrant, Apache Spark, Pandas, NumPy
+Tools: Git, Docker, Streamlit, Playwright, WeasyPrint
