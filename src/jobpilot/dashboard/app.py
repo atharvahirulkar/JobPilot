@@ -48,21 +48,21 @@ st.sidebar.markdown(
 
 # Load pages
 if page == "Job Tracker":
-    from . import pages_job_tracker
+    from jobpilot.dashboard import pages_job_tracker
     pages_job_tracker.render()
 
 elif page == "Skill Heatmap":
-    from . import pages_skill_heatmap
+    from jobpilot.dashboard import pages_skill_heatmap
     pages_skill_heatmap.render()
 
 elif page == "Interview Session":
-    from . import pages_interview
+    from jobpilot.dashboard import pages_interview
     pages_interview.render()
 
 elif page == "Morning Report":
-    from . import pages_report
+    from jobpilot.dashboard import pages_report
     pages_report.render()
 
 elif page == "Settings":
-    from . import pages_settings
+    from jobpilot.dashboard import pages_settings
     pages_settings.render()
