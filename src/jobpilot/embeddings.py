@@ -7,9 +7,9 @@ except Exception:
     SentenceTransformer = None
 
 try:
-    import openai
+    from openai import OpenAI
 except Exception:
-    openai = None
+    OpenAI = None
 
 
 class EmbeddingClient:
@@ -35,10 +35,15 @@ class EmbeddingClient:
 
     def embed_texts(self, texts: Iterable[str]) -> List[List[float]]:
         texts = list(texts)
-        if self.openai_key and openai is not None:
-            openai.api_key = self.openai_key
-            resp = openai.Embedding.create(model=self.openai_model, input=texts)
-            return [r["embedding"] for r in resp["data"]]
+        if self.openai_key and OpenAI is not None:
+            try:
+                client = OpenAI(api_key=self.openai_key)
+                resp = client.embeddings.create(model=self.openai_model, input=texts)
+                return [d.embedding for d in resp.data]
+            except Exception:
+                # Fall through to local sentence-transformers on any OpenAI failure
+                # (quota exceeded, network, invalid key, etc.)
+                pass
         # fallback to sentence-transformers — always return plain Python floats
         self._ensure_hf()
         vectors = self._hf.encode(texts, convert_to_numpy=True)

@@ -182,8 +182,8 @@ def test_llm_resume_tailor_real_template_extracts_bullets():
         pytest.skip("resume_template.tex not found")
     tex = TEMPLATE_PATH.read_text(encoding="utf-8")
     items = _extract_resume_items(tex)
-    # Template: 3 project + 4 experience = 7 (education coursework item is skipped)
-    assert len(items) == 7, f"Expected 7 non-education bullets, got {len(items)}"
+    # Template: 3 project + 5 experience = 8 (education coursework item is skipped)
+    assert len(items) == 8, f"Expected 8 non-education bullets, got {len(items)}"
 
 
 # ---------------------------------------------------------------------------

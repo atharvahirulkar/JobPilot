@@ -29,16 +29,40 @@ def _cover_letter_tex(
     body: str,
     job: Dict[str, Any],
     candidate_name: str = "[Your Name]",
-    candidate_email: str = "[your.email@example.com]",
-    candidate_linkedin: str = "[linkedin.com/in/yourprofile]",
+    candidate_email: str = "",
+    candidate_phone: str = "",
+    candidate_linkedin: str = "",
+    candidate_portfolio: str = "",
 ) -> str:
     """Wrap plain-text cover letter body in a LaTeX document matching resume style."""
     company = escape_latex(str(job.get("company", "the company")))
     title   = escape_latex(str(job.get("title",   "the role")))
 
+    # Build contact line — only include non-empty fields
+    contact_parts = []
+    if candidate_email:
+        contact_parts.append(escape_latex(candidate_email))
+    if candidate_phone:
+        contact_parts.append(escape_latex(candidate_phone))
+    if candidate_linkedin:
+        # Render as clickable hyperlink
+        url = candidate_linkedin if candidate_linkedin.startswith("http") else f"https://{candidate_linkedin}"
+        contact_parts.append(rf"\href{{{escape_latex(url)}}}{{{escape_latex(candidate_linkedin)}}}")
+    if candidate_portfolio:
+        url = candidate_portfolio if candidate_portfolio.startswith("http") else f"https://{candidate_portfolio}"
+        contact_parts.append(rf"\href{{{escape_latex(url)}}}{{{escape_latex(candidate_portfolio)}}}")
+
+    contact_line = r" \quad $|$ \quad ".join(contact_parts) if contact_parts else ""
+
     # Convert paragraphs: blank lines → \medskip\noindent
     paragraphs = [p.strip() for p in re.split(r"\n{2,}", body.strip()) if p.strip()]
     body_tex = "\n\n\\medskip\n\\noindent ".join(escape_latex(p) for p in paragraphs)
+
+    header_block = rf"\noindent\textbf{{\Large {escape_latex(candidate_name)}}}\\[4pt]"
+    if contact_line:
+        header_block += f"\n\\noindent {contact_line}\\\\[8pt]"
+    else:
+        header_block += "\n\\vspace{4pt}"
 
     return rf"""\documentclass[letterpaper,11pt]{{article}}
 
@@ -50,9 +74,7 @@ def _cover_letter_tex(
 
 \begin{{document}}
 
-\noindent\textbf{{\Large {escape_latex(candidate_name)}}}\\[4pt]
-\noindent {escape_latex(candidate_email)} \quad
-\href{{https://www.linkedin.com/in/yourprofile/}}{{{escape_latex(candidate_linkedin)}}}\\[8pt]
+{header_block}
 
 \noindent Hiring Team\\
 \noindent {company}\\[12pt]
@@ -122,16 +144,20 @@ class PDFGenerator:
         cover_letter_text: str,
         job: Dict[str, Any],
         job_id: str,
-        candidate_name: str = "[Your Name]",
-        candidate_email: str = "[your.email@example.com]",
-        candidate_linkedin: str = "[linkedin.com/in/yourprofile]",
+        candidate_name: str = "",
+        candidate_email: str = "",
+        candidate_phone: str = "",
+        candidate_linkedin: str = "",
+        candidate_portfolio: str = "",
     ) -> Path:
         """Compile plain-text cover letter → outputs/jobs/{job_id}/cover_letter.pdf"""
         tex = _cover_letter_tex(
             cover_letter_text, job,
-            candidate_name=candidate_name,
+            candidate_name=candidate_name or "[Your Name]",
             candidate_email=candidate_email,
+            candidate_phone=candidate_phone,
             candidate_linkedin=candidate_linkedin,
+            candidate_portfolio=candidate_portfolio,
         )
         out = self.outputs_root / job_id / "cover_letter.pdf"
         return self.compile_latex(tex, out)

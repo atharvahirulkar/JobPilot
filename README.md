@@ -2,7 +2,7 @@
 
 > **Your autonomous career agent.** Searches while you sleep. Preps while you wake.
 
-![Status](https://img.shields.io/badge/status-in%20development-yellow)
+![Status](https://img.shields.io/badge/status-operational-brightgreen)
 ![Python](https://img.shields.io/badge/python-3.11-blue)
 ![LangGraph](https://img.shields.io/badge/LangGraph-0.2-purple)
 ![Deployment](https://img.shields.io/badge/Deployment-Local-blue)
@@ -20,16 +20,16 @@ Job searching is broken. You spend hours manually scanning portals, copy-pasting
 
 ## What It Does
 
-Every morning at **5:00 AM**, JobPilot wakes up and runs a full pipeline - autonomously, while you sleep:
+Run on-demand, or schedule a 5 AM cron — JobPilot runs the full pipeline autonomously while you sleep:
 
 ```
-🔍  Searches 7 job portals globally for new DS/MLE roles
-      LinkedIn · Indeed · Handshake · Wellfound · Greenhouse · Lever · Google Jobs
+🔍  Scrapes 412 curated target companies for new DS/MLE/SWE/Quant roles
+      Direct ATS JSON APIs (Greenhouse · Lever · Ashby · Workable) + Playwright fallback for custom career pages
 
 📊  Scores every JD against your resume using an LLM alignment agent
       Match score 0–100 · Skill gaps · Role fit · Company tier
 
-✍️  For top matches (>75%), tailors your resume + writes a cover letter
+✍️  For top matches (configurable threshold), tailors your resume + writes a cover letter
       Reorders bullets by relevance · Injects keywords naturally
       Outputs: tailored_resume.pdf + cover_letter.pdf per job
 
@@ -54,24 +54,35 @@ tailored application materials, and a mock interview session loaded for your top
 
 ```bash
 python -m jobpilot.main dashboard
-# → http://localhost:8501
+# → http://localhost:8502
 ```
 
-**Morning Report Example:**
+**Morning Report Example (output varies per run as new jobs come in):**
 ```
-Good morning. Here's your June 10 job brief.
+Good morning. Here's today's job brief.
 
-📊 Found 34 new jobs overnight.
-🎯 6 strong matches (score > 75%)
+📊 Searched 412 target companies → scored N new roles.
+🎯 K strong matches surfaced.
 
-Top Pick: Staff Data Scientist - Meta (AI Infra)
-  Match Score: 91% | Gap: distributed systems
-  📄 Tailored resume → outputs/jobs/meta_ai_infra/tailored_resume.pdf
-  📝 Cover letter   → outputs/jobs/meta_ai_infra/cover_letter.pdf
+Top Pick: <role> @ <company>
+  Match Score: 85% | Gap: <recurring skill gaps>
+  📄 Tailored resume → outputs/jobs/<job_id>/tailored_resume.pdf
+  📝 Cover letter   → outputs/jobs/<job_id>/cover_letter.pdf
 
 🎤 Mock interview session queued.
-   Focus: distributed systems · ML system design · experimentation
-   Open dashboard → http://localhost:8501
+   Focus: questions weighted to your top match's JD
+   Open dashboard → http://localhost:8502
+```
+
+### Screenshots
+
+> _Add real screenshots from your latest run here:_
+
+```
+docs/screenshots/
+  ├── job_tracker.png       # Job Tracker page with ranked matches
+  ├── morning_report.png    # Morning Report summary
+  └── mock_interview.png    # Live mock-interview session
 ```
 
 ---
@@ -93,13 +104,13 @@ Top Pick: Staff Data Scientist - Meta (AI Infra)
 │ Search  │ │Engine  │ │ + Cover Letter │
 │ Agent   │ │        │ │   Generator    │
 │         │ │LLM     │ │                │
-│7 portals│ │0-100 + │ │LaTeX → PDF     │
-│Playwright│ │gaps    │ │via WeasyPrint  │
-│+SerpAPI │ │        │ │                │
+│412 cos. │ │0-100 + │ │LaTeX → PDF     │
+│Playwright│ │gaps    │ │via pdflatex    │
+│+ATS APIs│ │        │ │   (optional)   │
 └────┬────┘ └───┬────┘ └───────┬────────┘
      │          │              │
 ┌────▼──────────▼──────────────▼────────┐
-│             PostgreSQL                │
+│   SQLite (default) or PostgreSQL      │
 │  jobs · scores · candidate model      │
 └───────────────────┬───────────────────┘
                     │
@@ -151,8 +162,8 @@ Top Pick: Staff Data Scientist - Meta (AI Infra)
 | RAG evaluation | RAGAS - faithfulness · relevance · answer quality |
 | Database | PostgreSQL - jobs · candidate model · answer history |
 | ETL | PyPDF2 + spaCy + LLM extraction |
-| Job scraping | Playwright + SerpAPI + RapidAPI |
-| PDF generation | WeasyPrint |
+| Job scraping | Playwright + free ATS JSON APIs (Greenhouse · Lever · Ashby · Workable) — 412 curated companies |
+| PDF generation | LaTeX → `pdflatex` (optional; pipeline skips PDFs gracefully if absent) |
 | Observability | LangSmith - every agent node traced end-to-end |
 | Frontend | Streamlit - job tracker · skill heatmap · mock interview UI · morning report |
 | Scheduler | APScheduler - 5 AM cron (local) + manual CLI |
@@ -188,7 +199,10 @@ jobpilot/
 │   │   ├── pages_skill_heatmap.py   # Candidate skill confidence scores
 │   │   ├── pages_interview.py       # Interview Q&A history + scores
 │   │   ├── pages_report.py          # Morning report display
+│   │   ├── pages_controls.py        # In-browser controls: scrape · run pipeline · scheduler
 │   │   └── pages_settings.py        # Configuration UI
+│   ├── company_scraper.py           # Target-company career-page scraper (Playwright + ATS APIs)
+│   ├── ats_fetchers.py              # Greenhouse/Lever/Ashby/Workable JSON-API clients
 │   ├── etl.py                       # Resume PDF → text parsing
 │   ├── jd_parser.py                 # Job description structuring
 │   ├── llm_parser.py                # Local-first JD parser with Ollama fallback
@@ -203,18 +217,19 @@ jobpilot/
 ├── data/
 │   ├── master_resume.pdf            # Your resume (gitignored)
 │   └── resume_template.tex          # LaTeX resume template
-├── tests/
-│   ├── test_scoring_agent.py
-│   ├── test_cover_letter.py
-│   ├── test_resume_tailor.py
-│   ├── test_w4.py
-│   ├── test_w5.py
-│   └── test_w6.py
+│   └── tests/
+│       ├── test_scoring_agent.py
+│       ├── test_cover_letter.py
+│       ├── test_resume_tailor.py
+│       ├── test_company_scraper.py
+│       ├── test_w4.py
+│       ├── test_w5.py
+│       └── test_w6.py
 ├── outputs/
 │   └── jobs/                        # Per-job: tailored resume + cover letter PDFs
 ├── docker-compose.yml
-├── Dockerfile
 ├── requirements.txt
+├── pyproject.toml
 ├── .env.example
 └── README.md
 ```
@@ -223,7 +238,10 @@ jobpilot/
 
 ## Quickstart
 
-> **Prerequisites:** Python 3.11+ · PostgreSQL + Qdrant (Docker) · OpenAI API key
+> **Prerequisites:** Python 3.11+
+> **Optional:** Docker (Postgres + Qdrant) · OpenAI API key · `pdflatex` (for PDF generation — `brew install --cask basictex` on macOS) · Ollama (local LLM)
+>
+> With zero setup you get: SQLite, local sentence-transformer scoring, no PDFs. With Docker + an OpenAI key you get the full LLM pipeline + Postgres + Qdrant.
 
 ```bash
 # 1. Clone and install
@@ -233,21 +251,21 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
+playwright install chromium
 
-# 2. Configure environment
+# 2. Configure environment (sqlite + local scoring works out-of-the-box)
 cp .env.example .env
-# Fill in: OPENAI_API_KEY · SERPAPI_KEY · DATABASE_URL · QDRANT_URL
+# Optional: fill in OPENAI_API_KEY for LLM scoring + cover-letter quality
 
-# 3. Start infrastructure
+# 3. (Optional) Start infrastructure for full Postgres + Qdrant
 docker compose up -d
-# PostgreSQL (5432) · Qdrant (6333)
 
-# 4. Run the full pipeline once
+# 4. Run the full pipeline once (scrapes 412 target companies → scores → tailors)
 python -m jobpilot.main run_pipeline
 
 # 5. Open the Streamlit dashboard
 python -m jobpilot.main dashboard
-# → http://localhost:8501
+# → http://localhost:8502
 
 # 6. Schedule the 5 AM cron (Linux/macOS)
 python -m jobpilot.main schedule --hour 5 --minute 0

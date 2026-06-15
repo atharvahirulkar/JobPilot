@@ -3,6 +3,7 @@ from __future__ import annotations
 """JobPilot pipeline orchestrator + APScheduler 5 AM cron.
 
 Pipeline order (runs each morning):
+    0. Scrape career pages from your curated company list (Playwright + ATS APIs)
     1. Load resume text from data/master_resume.txt (or PDF)
     2. Score any unscored jobs already in the DB
     3. For top matches (>=75): tailor resume + generate cover letter + compile PDFs
@@ -30,16 +31,25 @@ log = logging.getLogger("jobpilot.scheduler")
 # ---------------------------------------------------------------------------
 
 def run_pipeline(
-    db_url:       Optional[str] = None,
-    resume_path:  Optional[str] = None,
-    outputs_root: str           = "outputs/jobs",
-    send_email:   bool          = False,
-    top_n:        int           = 5,
+    db_url:         Optional[str] = None,
+    resume_path:    Optional[str] = None,
+    outputs_root:   str           = "outputs/jobs",
+    send_email:     bool          = False,
+    top_n:          int           = 5,
+    search_jobs:    bool          = True,
+    search_batch:   int           = 30,
+    progress_cb=None,
 ) -> dict:
     """Run the full morning pipeline. Returns a summary dict."""
     db_url = db_url or os.getenv("DATABASE_URL", "sqlite:///jobpilot_w5.db")
     start  = datetime.utcnow()
     log.info("Pipeline starting at %s", start.isoformat())
+
+    # 0. Search company list for fresh job openings
+    searched_count = 0
+    if search_jobs:
+        searched_count = _search_company_jobs(db_url, search_batch, progress_cb)
+        log.info("Ingested %d new jobs from company search", searched_count)
 
     # 1. Load resume text
     resume_text = _load_resume(resume_path)
@@ -72,6 +82,7 @@ def run_pipeline(
     summary = {
         "run_at":        start.isoformat(),
         "elapsed_s":     round(elapsed, 1),
+        "searched":      searched_count,
         "scored":        scored_count,
         "tailored":      tailored_count,
         "top_matches":   report.top_matches_count,
@@ -85,6 +96,30 @@ def run_pipeline(
 # ---------------------------------------------------------------------------
 # Pipeline steps
 # ---------------------------------------------------------------------------
+
+def _search_company_jobs(db_url: str, batch_size: int, progress_cb=None) -> int:
+    """Step 0: scrape career pages from the curated company list."""
+    try:
+        from jobpilot.company_scraper import scrape_company_jobs
+        from jobpilot.db_repository import JobRepository
+
+        jobs = scrape_company_jobs(batch_size=batch_size, progress_cb=progress_cb)
+        if not jobs:
+            return 0
+
+        repo  = JobRepository(db_url=db_url)
+        count = 0
+        for job in jobs:
+            try:
+                repo.add_job(job)
+                count += 1
+            except Exception:
+                pass   # duplicate — already in DB
+        return count
+    except Exception as exc:
+        log.warning("Company job search failed: %s", exc)
+        return 0
+
 
 def _load_resume(resume_path: Optional[str]) -> str:
     candidates = [
@@ -183,7 +218,8 @@ def _tailor_top_matches(
 
     template_tex = template_path.read_text(encoding="utf-8")
     repo         = JobRepository(db_url)
-    top_jobs     = repo.get_top_jobs_with_scores(limit=top_n, min_score=75)
+    min_score    = int(os.getenv("JOBPILOT_MIN_MATCH_SCORE", "40"))
+    top_jobs     = repo.get_top_jobs_with_scores(limit=top_n, min_score=min_score)
 
     tailor  = LLMResumeTailor()
     cl_gen  = LLMCoverLetterGenerator()
@@ -201,9 +237,28 @@ def _tailor_top_matches(
         try:
             tailored_tex = tailor.tailor_latex(template_tex, row)
             bullets      = ResumeTailor().tailor(resume_text, row).bullets if resume_text else []
-            cl_text      = cl_gen.generate(build_request("Atharva Hirulkar", row, bullets))
+            candidate_name      = os.getenv("CANDIDATE_NAME", "Candidate")
+            candidate_email     = os.getenv("CANDIDATE_EMAIL", "")
+            candidate_phone     = os.getenv("CANDIDATE_PHONE", "")
+            candidate_linkedin  = os.getenv("CANDIDATE_LINKEDIN", "")
+            candidate_portfolio = os.getenv("CANDIDATE_PORTFOLIO", "")
+            cl_req  = build_request(
+                candidate_name, row, bullets,
+                candidate_email=candidate_email,
+                candidate_phone=candidate_phone,
+                candidate_linkedin=candidate_linkedin,
+                candidate_portfolio=candidate_portfolio,
+            )
+            cl_text = cl_gen.generate(cl_req)
             gen.resume_pdf(tailored_tex, job_id)
-            gen.cover_letter_pdf(cl_text, row, job_id)
+            gen.cover_letter_pdf(
+                cl_text, row, job_id,
+                candidate_name=candidate_name,
+                candidate_email=candidate_email,
+                candidate_phone=candidate_phone,
+                candidate_linkedin=candidate_linkedin,
+                candidate_portfolio=candidate_portfolio,
+            )
             count += 1
         except Exception as exc:
             log.warning("Tailoring failed for %s: %s", job_id, exc)

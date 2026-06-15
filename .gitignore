@@ -1,3 +1,4 @@
+
 # Python
 __pycache__/
 *.py[cod]
@@ -41,9 +42,10 @@ htmlcov/
 # Outputs - generated PDFs, tailored resumes, cover letters
 outputs/
 
-# Data - personal resume (never commit)
-data/master_resume.pdf
-data/master_resume.txt
+# Data - personal resume & templates (never commit)
+data/*.pdf
+data/*.tex
+data/*.csv
 
 # LaTeX compile byproducts (template .tex stays tracked)
 *.aux

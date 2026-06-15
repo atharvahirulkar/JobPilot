@@ -26,7 +26,7 @@ JSON schema:
   "match_score": <integer 0-100>,
   "matched_skills": [<string>, ...],
   "skill_gaps": [<string>, ...],
-  "role_fit": <"DS" | "MLE" | "Analyst" | "Research" | "Other">,
+  "role_fit": <"DS" | "MLE" | "DE" | "SWE" | "Quant" | "Analyst" | "Research" | "Other">,
   "company_tier": <"FAANG" | "Growth" | "Startup">
 }
 
@@ -38,11 +38,14 @@ Scoring rubric:
 - 0-24: Mismatch, missing most required skills
 
 role_fit classification:
-- DS: Data Scientist (statistics, experimentation, modeling, insights)
-- MLE: ML Engineer (production ML, MLOps, model serving, pipelines)
-- Analyst: Data/Business Analyst (SQL, dashboards, reporting, BI)
+- DS:       Data Scientist (statistics, experimentation, modeling, insights)
+- MLE:      ML Engineer (production ML, MLOps, model serving, pipelines)
+- DE:       Data Engineer (pipelines, ETL, Spark, dbt, Airflow, warehousing)
+- SWE:      Software Engineer (backend, infra, distributed systems, APIs)
+- Quant:    Quantitative Researcher / Analyst (finance, trading, statistics, alpha research)
+- Analyst:  Data/Business Analyst (SQL, dashboards, reporting, BI)
 - Research: ML Researcher (papers, novel methods, PhD-level)
-- Other: Product, PM, SWE, or unclear
+- Other:    Product, PM, DevOps, or unclear
 
 company_tier classification:
 - FAANG: Meta, Google, Apple, Amazon, Netflix, Microsoft, DeepMind, OpenAI, Anthropic
@@ -111,11 +114,19 @@ def _local_fallback(resume_text: str, job: Dict[str, Any]) -> AlignmentResult:
 
     # Rough role_fit heuristic from title
     title_lower = str(job.get("title", "")).lower()
-    if any(w in title_lower for w in ["research", "researcher"]):
+    if any(w in title_lower for w in ["quant", "quantitative"]):
+        role_fit = "Quant"
+    elif any(w in title_lower for w in ["research scientist", "researcher", "research engineer"]):
         role_fit = "Research"
-    elif any(w in title_lower for w in ["ml engineer", "machine learning engineer", "mlops", "ai engineer"]):
+    elif any(w in title_lower for w in ["ml engineer", "machine learning engineer", "mlops", "ai engineer",
+                                         "applied scientist", "applied ml"]):
         role_fit = "MLE"
-    elif any(w in title_lower for w in ["analyst", "analytics"]):
+    elif any(w in title_lower for w in ["data engineer", "analytics engineer", "etl", "platform engineer"]):
+        role_fit = "DE"
+    elif any(w in title_lower for w in ["software engineer", "backend engineer", "swe", "sde",
+                                         "software developer"]):
+        role_fit = "SWE"
+    elif any(w in title_lower for w in ["analyst", "analytics", "bi engineer", "business intelligence"]):
         role_fit = "Analyst"
     elif any(w in title_lower for w in ["data scientist", "scientist"]):
         role_fit = "DS"

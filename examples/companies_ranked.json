@@ -1,0 +1,6594 @@
+[
+  {
+    "id": "point72_0",
+    "company": "Point72",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Point72 - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "tower_research_1",
+    "company": "Tower Research",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Tower Research - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "voleon_2",
+    "company": "Voleon",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Voleon - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "five_rings_3",
+    "company": "Five Rings",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Five Rings - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "schonfeld_4",
+    "company": "Schonfeld",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Schonfeld - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "virtu_financial_5",
+    "company": "Virtu Financial",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Virtu Financial - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "ridgeway_6",
+    "company": "Ridgeway",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Ridgeway - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "balyasny_asset_management_7",
+    "company": "Balyasny Asset Management",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Balyasny Asset Management - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "optiver_8",
+    "company": "Optiver",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Optiver - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "tgs_9",
+    "company": "TGS",
+    "title": "Data Scientist / ML Engineer",
+    "description": "TGS - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "imc_trading_10",
+    "company": "IMC Trading",
+    "title": "Data Scientist / ML Engineer",
+    "description": "IMC Trading - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "drw_11",
+    "company": "DRW",
+    "title": "Data Scientist / ML Engineer",
+    "description": "DRW - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "valkyrie_12",
+    "company": "Valkyrie",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Valkyrie - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "worldquant_13",
+    "company": "WorldQuant",
+    "title": "Data Scientist / ML Engineer",
+    "description": "WorldQuant - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "aqr_14",
+    "company": "AQR",
+    "title": "Data Scientist / ML Engineer",
+    "description": "AQR - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "exoduspoint_15",
+    "company": "ExodusPoint",
+    "title": "Data Scientist / ML Engineer",
+    "description": "ExodusPoint - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "hudson_river_trading_16",
+    "company": "Hudson River Trading",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Hudson River Trading - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "d._e._shaw_17",
+    "company": "D. E. Shaw",
+    "title": "Data Scientist / ML Engineer",
+    "description": "D. E. Shaw - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "maven_securities_18",
+    "company": "Maven Securities",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Maven Securities - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "akuna_capital_19",
+    "company": "Akuna Capital",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Akuna Capital - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "quadrature_capital_20",
+    "company": "Quadrature Capital",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Quadrature Capital - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "xtx_markets_21",
+    "company": "XTX Markets",
+    "title": "Data Scientist / ML Engineer",
+    "description": "XTX Markets - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "millennium_management_22",
+    "company": "Millennium Management",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Millennium Management - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "jane_street_23",
+    "company": "Jane Street",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Jane Street - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "g-research_24",
+    "company": "G-Research",
+    "title": "Data Scientist / ML Engineer",
+    "description": "G-Research - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "pdt_partners_25",
+    "company": "PDT Partners",
+    "title": "Data Scientist / ML Engineer",
+    "description": "PDT Partners - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "radix_trading_26",
+    "company": "Radix Trading",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Radix Trading - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "flow_traders_27",
+    "company": "Flow Traders",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Flow Traders - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "squarepoint_capital_28",
+    "company": "Squarepoint Capital",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Squarepoint Capital - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "renaissance_technologies_29",
+    "company": "Renaissance Technologies",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Renaissance Technologies - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "susquehanna_(sig)_30",
+    "company": "Susquehanna (SIG)",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Susquehanna (SIG) - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "two_sigma_31",
+    "company": "Two Sigma",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Two Sigma - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "jump_trading_32",
+    "company": "Jump Trading",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Jump Trading - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "citadel_securities_33",
+    "company": "Citadel Securities",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Citadel Securities - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "arrowstreet_capital_34",
+    "company": "Arrowstreet Capital",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Arrowstreet Capital - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "bridgewater_35",
+    "company": "Bridgewater",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Bridgewater - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "character_ai_36",
+    "company": "Character AI",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Character AI - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "databricks_37",
+    "company": "Databricks",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Databricks - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "weights_&_biases_38",
+    "company": "Weights & Biases",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Weights & Biases - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "mongodb_39",
+    "company": "MongoDB",
+    "title": "Data Scientist / ML Engineer",
+    "description": "MongoDB - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "tecton_40",
+    "company": "Tecton",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Tecton - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "airbyte_41",
+    "company": "Airbyte",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Airbyte - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "mistral_ai_42",
+    "company": "Mistral AI",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Mistral AI - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "qdrant_43",
+    "company": "Qdrant",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Qdrant - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "cerebras_44",
+    "company": "Cerebras",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Cerebras - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "monte_carlo_45",
+    "company": "Monte Carlo",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Monte Carlo - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "hex_46",
+    "company": "Hex",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Hex - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "anyscale_47",
+    "company": "Anyscale",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Anyscale - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "astronomer_48",
+    "company": "Astronomer",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Astronomer - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "hugging_face_49",
+    "company": "Hugging Face",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Hugging Face - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "cohere_50",
+    "company": "Cohere",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Cohere - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "snowflake_51",
+    "company": "Snowflake",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Snowflake - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "fivetran_52",
+    "company": "Fivetran",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Fivetran - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "together_ai_53",
+    "company": "Together AI",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Together AI - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "dbt_labs_54",
+    "company": "dbt Labs",
+    "title": "Data Scientist / ML Engineer",
+    "description": "dbt Labs - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "weaviate_55",
+    "company": "Weaviate",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Weaviate - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "anthropic_56",
+    "company": "Anthropic",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Anthropic - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "arize_ai_57",
+    "company": "Arize AI",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Arize AI - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "groq_58",
+    "company": "Groq",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Groq - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "datadog_59",
+    "company": "Datadog",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Datadog - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "evidently_ai_60",
+    "company": "Evidently AI",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Evidently AI - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "pinecone_61",
+    "company": "Pinecone",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Pinecone - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "elastic_62",
+    "company": "Elastic",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Elastic - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "perplexity_ai_63",
+    "company": "Perplexity AI",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Perplexity AI - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "prefect_64",
+    "company": "Prefect",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Prefect - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "openai_65",
+    "company": "OpenAI",
+    "title": "Data Scientist / ML Engineer",
+    "description": "OpenAI - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "google_deepmind_66",
+    "company": "Google DeepMind",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Google DeepMind - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "modal_labs_67",
+    "company": "Modal Labs",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Modal Labs - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "stability_ai_68",
+    "company": "Stability AI",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Stability AI - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "scale_ai_69",
+    "company": "Scale AI",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Scale AI - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "confluent_70",
+    "company": "Confluent",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Confluent - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "stripe_71",
+    "company": "Stripe",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Stripe - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "applovin_72",
+    "company": "AppLovin",
+    "title": "Data Scientist / ML Engineer",
+    "description": "AppLovin - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "ebay_73",
+    "company": "eBay",
+    "title": "Data Scientist / ML Engineer",
+    "description": "eBay - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "brex_74",
+    "company": "Brex",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Brex - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "salesforce_75",
+    "company": "Salesforce",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Salesforce - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "jpmorgan_chase_76",
+    "company": "JPMorgan Chase",
+    "title": "Data Scientist / ML Engineer",
+    "description": "JPMorgan Chase - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "http://booking.com_77",
+    "company": "http://Booking.com",
+    "title": "Data Scientist / ML Engineer",
+    "description": "http://Booking.com - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "klarna_78",
+    "company": "Klarna",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Klarna - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "amazon_79",
+    "company": "Amazon",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Amazon - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "apple_80",
+    "company": "Apple",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Apple - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "bloomberg_81",
+    "company": "Bloomberg",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Bloomberg - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "gusto_82",
+    "company": "Gusto",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Gusto - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "wise_83",
+    "company": "Wise",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Wise - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "block_(square)_84",
+    "company": "Block (Square)",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Block (Square) - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "cloudflare_85",
+    "company": "Cloudflare",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Cloudflare - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "spotify_86",
+    "company": "Spotify",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Spotify - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "coinbase_87",
+    "company": "Coinbase",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Coinbase - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "airbnb_88",
+    "company": "Airbnb",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Airbnb - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "dropbox_89",
+    "company": "Dropbox",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Dropbox - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "google_90",
+    "company": "Google",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Google - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "nvidia_91",
+    "company": "NVIDIA",
+    "title": "Data Scientist / ML Engineer",
+    "description": "NVIDIA - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "morgan_stanley_92",
+    "company": "Morgan Stanley",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Morgan Stanley - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "x_(twitter)_93",
+    "company": "X (Twitter)",
+    "title": "Data Scientist / ML Engineer",
+    "description": "X (Twitter) - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "paypal_94",
+    "company": "PayPal",
+    "title": "Data Scientist / ML Engineer",
+    "description": "PayPal - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "intel_95",
+    "company": "Intel",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Intel - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "blackrock_96",
+    "company": "BlackRock",
+    "title": "Data Scientist / ML Engineer",
+    "description": "BlackRock - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "goldman_sachs_97",
+    "company": "Goldman Sachs",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Goldman Sachs - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "flexport_98",
+    "company": "Flexport",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Flexport - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "meta_99",
+    "company": "Meta",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Meta - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "doordash_100",
+    "company": "DoorDash",
+    "title": "Data Scientist / ML Engineer",
+    "description": "DoorDash - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "palantir_101",
+    "company": "Palantir",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Palantir - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "coupang_102",
+    "company": "Coupang",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Coupang - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "oracle_103",
+    "company": "Oracle",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Oracle - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "tesla_104",
+    "company": "Tesla",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Tesla - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "chime_105",
+    "company": "Chime",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Chime - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "microsoft_106",
+    "company": "Microsoft",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Microsoft - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "pinterest_107",
+    "company": "Pinterest",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Pinterest - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "netflix_108",
+    "company": "Netflix",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Netflix - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "revolut_109",
+    "company": "Revolut",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Revolut - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "github_110",
+    "company": "GitHub",
+    "title": "Data Scientist / ML Engineer",
+    "description": "GitHub - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "affirm_111",
+    "company": "Affirm",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Affirm - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "robinhood_112",
+    "company": "Robinhood",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Robinhood - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "ibm_113",
+    "company": "IBM",
+    "title": "Data Scientist / ML Engineer",
+    "description": "IBM - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "rippling_114",
+    "company": "Rippling",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Rippling - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "uber_115",
+    "company": "Uber",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Uber - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "snap_116",
+    "company": "Snap",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Snap - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "linkedin_117",
+    "company": "LinkedIn",
+    "title": "Data Scientist / ML Engineer",
+    "description": "LinkedIn - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "adobe_118",
+    "company": "Adobe",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Adobe - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "carta_119",
+    "company": "Carta",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Carta - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "plaid_120",
+    "company": "Plaid",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Plaid - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "zepto_121",
+    "company": "Zepto",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Zepto - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "zalando_122",
+    "company": "Zalando",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Zalando - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "figma_123",
+    "company": "Figma",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Figma - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "american_express_124",
+    "company": "American Express",
+    "title": "Data Scientist / ML Engineer",
+    "description": "American Express - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "flatiron_health_125",
+    "company": "Flatiron Health",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Flatiron Health - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "deutsche_bank_india_126",
+    "company": "Deutsche Bank India",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Deutsche Bank India - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "postman_127",
+    "company": "Postman",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Postman - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "wayfair_128",
+    "company": "Wayfair",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Wayfair - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "walmart_129",
+    "company": "Walmart",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Walmart - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "deutsche_bank_130",
+    "company": "Deutsche Bank",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Deutsche Bank - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "razorpay_131",
+    "company": "Razorpay",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Razorpay - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "jpmorgan_india_132",
+    "company": "JPMorgan India",
+    "title": "Data Scientist / ML Engineer",
+    "description": "JPMorgan India - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "tcs_133",
+    "company": "TCS",
+    "title": "Data Scientist / ML Engineer",
+    "description": "TCS - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "nykaa_134",
+    "company": "Nykaa",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Nykaa - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "goldman_sachs_india_135",
+    "company": "Goldman Sachs India",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Goldman Sachs India - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "waymo_136",
+    "company": "Waymo",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Waymo - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "reddit_137",
+    "company": "Reddit",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Reddit - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "cohesity_138",
+    "company": "Cohesity",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Cohesity - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "wipro_139",
+    "company": "Wipro",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Wipro - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "crowdstrike_140",
+    "company": "CrowdStrike",
+    "title": "Data Scientist / ML Engineer",
+    "description": "CrowdStrike - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "urban_company_141",
+    "company": "Urban Company",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Urban Company - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "infosys_142",
+    "company": "Infosys",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Infosys - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "apple_india_143",
+    "company": "Apple India",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Apple India - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "state_street_144",
+    "company": "State Street",
+    "title": "Data Scientist / ML Engineer",
+    "description": "State Street - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "bcg_145",
+    "company": "BCG",
+    "title": "Data Scientist / ML Engineer",
+    "description": "BCG - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "cruise_146",
+    "company": "Cruise",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Cruise - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "impossible_foods_147",
+    "company": "Impossible Foods",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Impossible Foods - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "roblox_148",
+    "company": "Roblox",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Roblox - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "wayve_149",
+    "company": "Wayve",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Wayve - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "dream11_150",
+    "company": "Dream11",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Dream11 - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "rivian_151",
+    "company": "Rivian",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Rivian - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "visa_india_152",
+    "company": "Visa India",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Visa India - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "wells_fargo_153",
+    "company": "Wells Fargo",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Wells Fargo - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "bain_154",
+    "company": "Bain",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Bain - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "hubspot_155",
+    "company": "HubSpot",
+    "title": "Data Scientist / ML Engineer",
+    "description": "HubSpot - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "aurora_156",
+    "company": "Aurora",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Aurora - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "rubrik_157",
+    "company": "Rubrik",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Rubrik - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "cvs_health_158",
+    "company": "CVS Health",
+    "title": "Data Scientist / ML Engineer",
+    "description": "CVS Health - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "american_express_india_159",
+    "company": "American Express India",
+    "title": "Data Scientist / ML Engineer",
+    "description": "American Express India - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "hsbc_india_160",
+    "company": "HSBC India",
+    "title": "Data Scientist / ML Engineer",
+    "description": "HSBC India - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "veeva_systems_161",
+    "company": "Veeva Systems",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Veeva Systems - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "roche_162",
+    "company": "Roche",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Roche - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "microsoft_india_163",
+    "company": "Microsoft India",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Microsoft India - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "discord_164",
+    "company": "Discord",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Discord - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "browserstack_165",
+    "company": "BrowserStack",
+    "title": "Data Scientist / ML Engineer",
+    "description": "BrowserStack - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "zomato_166",
+    "company": "Zomato",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Zomato - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "target_167",
+    "company": "Target",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Target - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "experian_168",
+    "company": "Experian",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Experian - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "citi_169",
+    "company": "Citi",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Citi - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "duolingo_170",
+    "company": "Duolingo",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Duolingo - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "anduril_171",
+    "company": "Anduril",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Anduril - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "bank_of_america_172",
+    "company": "Bank of America",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Bank of America - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "pfizer_173",
+    "company": "Pfizer",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Pfizer - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "freshworks_174",
+    "company": "Freshworks",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Freshworks - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "blackstone_175",
+    "company": "Blackstone",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Blackstone - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "groww_176",
+    "company": "Groww",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Groww - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "nuro_177",
+    "company": "Nuro",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Nuro - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "mastercard_india_178",
+    "company": "Mastercard India",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Mastercard India - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "swiggy_179",
+    "company": "Swiggy",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Swiggy - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "mckinsey_180",
+    "company": "McKinsey",
+    "title": "Data Scientist / ML Engineer",
+    "description": "McKinsey - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "hcltech_181",
+    "company": "HCLTech",
+    "title": "Data Scientist / ML Engineer",
+    "description": "HCLTech - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "delivery_hero_182",
+    "company": "Delivery Hero",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Delivery Hero - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "johnson_&_johnson_183",
+    "company": "Johnson & Johnson",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Johnson & Johnson - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "tempus_ai_184",
+    "company": "Tempus AI",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Tempus AI - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "adobe_india_185",
+    "company": "Adobe India",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Adobe India - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "booz_allen_hamilton_186",
+    "company": "Booz Allen Hamilton",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Booz Allen Hamilton - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "instacart_187",
+    "company": "Instacart",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Instacart - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "flipkart_188",
+    "company": "Flipkart",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Flipkart - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "amazon_india_189",
+    "company": "Amazon India",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Amazon India - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "spacex_/_starlink_190",
+    "company": "SpaceX / Starlink",
+    "title": "Data Scientist / ML Engineer",
+    "description": "SpaceX / Starlink - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "samsara_191",
+    "company": "Samsara",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Samsara - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "phonepe_192",
+    "company": "PhonePe",
+    "title": "Data Scientist / ML Engineer",
+    "description": "PhonePe - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "lyft_193",
+    "company": "Lyft",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Lyft - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "cred_194",
+    "company": "CRED",
+    "title": "Data Scientist / ML Engineer",
+    "description": "CRED - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "notion_195",
+    "company": "Notion",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Notion - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "google_india_196",
+    "company": "Google India",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Google India - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "capital_one_197",
+    "company": "Capital One",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Capital One - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "unitedhealth_group_198",
+    "company": "UnitedHealth Group",
+    "title": "Data Scientist / ML Engineer",
+    "description": "UnitedHealth Group - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "palo_alto_networks_199",
+    "company": "Palo Alto Networks",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Palo Alto Networks - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "sumup_200",
+    "company": "SumUp",
+    "title": "Data Scientist / ML Engineer",
+    "description": "SumUp - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "deepmind_201",
+    "company": "DeepMind",
+    "title": "Data Scientist / ML Engineer",
+    "description": "DeepMind - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "tencent_202",
+    "company": "Tencent",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Tencent - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "wix_203",
+    "company": "Wix",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Wix - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "lazada_(alibaba)_204",
+    "company": "Lazada (Alibaba)",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Lazada (Alibaba) - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "amazon_singapore_205",
+    "company": "Amazon Singapore",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Amazon Singapore - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "mubadala_206",
+    "company": "Mubadala",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Mubadala - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "citadel_securities_singapore_207",
+    "company": "Citadel Securities Singapore",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Citadel Securities Singapore - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "talabat_208",
+    "company": "Talabat",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Talabat - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "http://checkout.com_209",
+    "company": "http://Checkout.com",
+    "title": "Data Scientist / ML Engineer",
+    "description": "http://Checkout.com - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "synthesia_210",
+    "company": "Synthesia",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Synthesia - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "jane_street_london_211",
+    "company": "Jane Street London",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Jane Street London - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "graphcore_212",
+    "company": "Graphcore",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Graphcore - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "barclays_213",
+    "company": "Barclays",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Barclays - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "jane_street_singapore_214",
+    "company": "Jane Street Singapore",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Jane Street Singapore - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "preferred_networks_215",
+    "company": "Preferred Networks",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Preferred Networks - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "lightricks_216",
+    "company": "Lightricks",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Lightricks - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "hsbc_global_217",
+    "company": "HSBC Global",
+    "title": "Data Scientist / ML Engineer",
+    "description": "HSBC Global - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "mercari_218",
+    "company": "Mercari",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Mercari - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "standard_chartered_219",
+    "company": "Standard Chartered",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Standard Chartered - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "starling_bank_220",
+    "company": "Starling Bank",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Starling Bank - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "noon_221",
+    "company": "Noon",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Noon - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "monzo_222",
+    "company": "Monzo",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Monzo - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "goto_(gojek_/_tokopedia)_223",
+    "company": "GoTo (Gojek / Tokopedia)",
+    "title": "Data Scientist / ML Engineer",
+    "description": "GoTo (Gojek / Tokopedia) - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "g42_224",
+    "company": "G42",
+    "title": "Data Scientist / ML Engineer",
+    "description": "G42 - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "kakao_225",
+    "company": "Kakao",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Kakao - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "citadel_securities_london_226",
+    "company": "Citadel Securities London",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Citadel Securities London - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "microsoft_singapore_227",
+    "company": "Microsoft Singapore",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Microsoft Singapore - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "nubank_228",
+    "company": "Nubank",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Nubank - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "careem_(uber_mena)_229",
+    "company": "Careem (Uber MENA)",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Careem (Uber MENA) - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "arm_230",
+    "company": "ARM",
+    "title": "Data Scientist / ML Engineer",
+    "description": "ARM - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "line_/_yahoo_japan_231",
+    "company": "LINE / Yahoo Japan",
+    "title": "Data Scientist / ML Engineer",
+    "description": "LINE / Yahoo Japan - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "isomorphic_labs_232",
+    "company": "Isomorphic Labs",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Isomorphic Labs - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "goldman_sachs_singapore_233",
+    "company": "Goldman Sachs Singapore",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Goldman Sachs Singapore - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "ocbc_bank_234",
+    "company": "OCBC Bank",
+    "title": "Data Scientist / ML Engineer",
+    "description": "OCBC Bank - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "palantir_uk_235",
+    "company": "Palantir UK",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Palantir UK - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "mercadolibre_236",
+    "company": "MercadoLibre",
+    "title": "Data Scientist / ML Engineer",
+    "description": "MercadoLibre - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "bytedance_/_tiktok_237",
+    "company": "ByteDance / TikTok",
+    "title": "Data Scientist / ML Engineer",
+    "description": "ByteDance / TikTok - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "grab_238",
+    "company": "Grab",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Grab - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "dbs_bank_239",
+    "company": "DBS Bank",
+    "title": "Data Scientist / ML Engineer",
+    "description": "DBS Bank - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "tractable_240",
+    "company": "Tractable",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Tractable - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "google_singapore_241",
+    "company": "Google Singapore",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Google Singapore - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "adyen_242",
+    "company": "Adyen",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Adyen - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "jpmorgan_apac_243",
+    "company": "JPMorgan APAC",
+    "title": "Data Scientist / ML Engineer",
+    "description": "JPMorgan APAC - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "ai21_labs_244",
+    "company": "AI21 Labs",
+    "title": "Data Scientist / ML Engineer",
+    "description": "AI21 Labs - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "baidu_245",
+    "company": "Baidu",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Baidu - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "sea_limited_(shopee_/_garena)_246",
+    "company": "Sea Limited (Shopee / Garena)",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Sea Limited (Shopee / Garena) - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "samsung_247",
+    "company": "Samsung",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Samsung - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "alibaba_/_aliyun_248",
+    "company": "Alibaba / Aliyun",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Alibaba / Aliyun - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "meta_singapore_249",
+    "company": "Meta Singapore",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Meta Singapore - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "lloyds_banking_group_250",
+    "company": "Lloyds Banking Group",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Lloyds Banking Group - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "bayer_251",
+    "company": "Bayer",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Bayer - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "nestle_252",
+    "company": "Nestle",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Nestle - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "cyberark_253",
+    "company": "CyberArk",
+    "title": "Data Scientist / ML Engineer",
+    "description": "CyberArk - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "asml_254",
+    "company": "ASML",
+    "title": "Data Scientist / ML Engineer",
+    "description": "ASML - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "http://checkout.com_dubai_255",
+    "company": "http://Checkout.com Dubai",
+    "title": "Data Scientist / ML Engineer",
+    "description": "http://Checkout.com Dubai - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "roche_global_256",
+    "company": "Roche Global",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Roche Global - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "airbus_257",
+    "company": "Airbus",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Airbus - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "sap_258",
+    "company": "SAP",
+    "title": "Data Scientist / ML Engineer",
+    "description": "SAP - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "volkswagen_group_259",
+    "company": "Volkswagen Group",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Volkswagen Group - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "ifood_260",
+    "company": "iFood",
+    "title": "Data Scientist / ML Engineer",
+    "description": "iFood - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "astrazeneca_261",
+    "company": "AstraZeneca",
+    "title": "Data Scientist / ML Engineer",
+    "description": "AstraZeneca - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "kpmg_global_262",
+    "company": "KPMG Global",
+    "title": "Data Scientist / ML Engineer",
+    "description": "KPMG Global - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "saudi_aramco_263",
+    "company": "Saudi Aramco",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Saudi Aramco - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "multiverse_264",
+    "company": "Multiverse",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Multiverse - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "bmw_group_265",
+    "company": "BMW Group",
+    "title": "Data Scientist / ML Engineer",
+    "description": "BMW Group - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "adnoc_266",
+    "company": "ADNOC",
+    "title": "Data Scientist / ML Engineer",
+    "description": "ADNOC - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "shell_267",
+    "company": "Shell",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Shell - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "unilever_268",
+    "company": "Unilever",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Unilever - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "abb_269",
+    "company": "ABB",
+    "title": "Data Scientist / ML Engineer",
+    "description": "ABB - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "http://monday.com_270",
+    "company": "http://Monday.com",
+    "title": "Data Scientist / ML Engineer",
+    "description": "http://Monday.com - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "ey_global_271",
+    "company": "EY Global",
+    "title": "Data Scientist / ML Engineer",
+    "description": "EY Global - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "philips_272",
+    "company": "Philips",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Philips - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "siemens_273",
+    "company": "Siemens",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Siemens - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "novartis_global_274",
+    "company": "Novartis Global",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Novartis Global - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "equinor_275",
+    "company": "Equinor",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Equinor - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "ea_(electronic_arts)_276",
+    "company": "EA (Electronic Arts)",
+    "title": "Data Scientist / ML Engineer",
+    "description": "EA (Electronic Arts) - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "mercedes-benz_277",
+    "company": "Mercedes-Benz",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Mercedes-Benz - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "puma_278",
+    "company": "Puma",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Puma - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "kering_(gucci_/_saint_laurent)_279",
+    "company": "Kering (Gucci / Saint Laurent)",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Kering (Gucci / Saint Laurent) - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "paytm_280",
+    "company": "Paytm",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Paytm - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "under_armour_281",
+    "company": "Under Armour",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Under Armour - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "ferrari_282",
+    "company": "Ferrari",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Ferrari - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "porsche_283",
+    "company": "Porsche",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Porsche - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "netflix_284",
+    "company": "Netflix",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Netflix - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "pagerduty_285",
+    "company": "PagerDuty",
+    "title": "Data Scientist / ML Engineer",
+    "description": "PagerDuty - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "zscaler_286",
+    "company": "Zscaler",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Zscaler - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "petronas_287",
+    "company": "Petronas",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Petronas - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "orca_security_288",
+    "company": "Orca Security",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Orca Security - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "uber_india_289",
+    "company": "Uber India",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Uber India - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "wiz_290",
+    "company": "Wiz",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Wiz - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "hyundai_291",
+    "company": "Hyundai",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Hyundai - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "toyota_292",
+    "company": "Toyota",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Toyota - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "grammarly_293",
+    "company": "Grammarly",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Grammarly - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "disney+_hotstar_294",
+    "company": "Disney+ Hotstar",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Disney+ Hotstar - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "atlassian_295",
+    "company": "Atlassian",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Atlassian - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "alpine_f1_(renault)_296",
+    "company": "Alpine F1 (Renault)",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Alpine F1 (Renault) - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "unity_technologies_297",
+    "company": "Unity Technologies",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Unity Technologies - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "nike_298",
+    "company": "Nike",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Nike - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "adidas_299",
+    "company": "Adidas",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Adidas - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "sony_interactive_/_playstation_300",
+    "company": "Sony Interactive / PlayStation",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Sony Interactive / PlayStation - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "lvmh_301",
+    "company": "LVMH",
+    "title": "Data Scientist / ML Engineer",
+    "description": "LVMH - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "jio_/_reliance_industries_302",
+    "company": "Jio / Reliance Industries",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Jio / Reliance Industries - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "segment_/_twilio_303",
+    "company": "Segment / Twilio",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Segment / Twilio - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "myntra_304",
+    "company": "Myntra",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Myntra - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "makemytrip_305",
+    "company": "MakeMyTrip",
+    "title": "Data Scientist / ML Engineer",
+    "description": "MakeMyTrip - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "intercom_306",
+    "company": "Intercom",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Intercom - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "red_bull_racing_307",
+    "company": "Red Bull Racing",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Red Bull Racing - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "netflix_india_308",
+    "company": "Netflix India",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Netflix India - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "workday_309",
+    "company": "Workday",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Workday - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "canva_310",
+    "company": "Canva",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Canva - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "shopify_311",
+    "company": "Shopify",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Shopify - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "mixpanel_312",
+    "company": "Mixpanel",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Mixpanel - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "inditex_(zara)_313",
+    "company": "Inditex (Zara)",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Inditex (Zara) - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "mclaren_314",
+    "company": "McLaren",
+    "title": "Data Scientist / ML Engineer",
+    "description": "McLaren - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "walmart_global_tech_315",
+    "company": "Walmart Global Tech",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Walmart Global Tech - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "atlassian_india_316",
+    "company": "Atlassian India",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Atlassian India - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "audi_317",
+    "company": "Audi",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Audi - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "lululemon_318",
+    "company": "Lululemon",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Lululemon - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "warner_bros_discovery_319",
+    "company": "Warner Bros Discovery",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Warner Bros Discovery - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "nbcuniversal_/_peacock_320",
+    "company": "NBCUniversal / Peacock",
+    "title": "Data Scientist / ML Engineer",
+    "description": "NBCUniversal / Peacock - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "paramount_321",
+    "company": "Paramount",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Paramount - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "darktrace_322",
+    "company": "Darktrace",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Darktrace - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "adnoc_323",
+    "company": "ADNOC",
+    "title": "Data Scientist / ML Engineer",
+    "description": "ADNOC - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "amplitude_324",
+    "company": "Amplitude",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Amplitude - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "totalenergies_325",
+    "company": "TotalEnergies",
+    "title": "Data Scientist / ML Engineer",
+    "description": "TotalEnergies - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "aston_martin_f1_326",
+    "company": "Aston Martin F1",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Aston Martin F1 - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "activision_blizzard_/_microsoft_gaming_327",
+    "company": "Activision Blizzard / Microsoft Gaming",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Activision Blizzard / Microsoft Gaming - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "sentinelone_328",
+    "company": "SentinelOne",
+    "title": "Data Scientist / ML Engineer",
+    "description": "SentinelOne - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "burberry_329",
+    "company": "Burberry",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Burberry - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "bp_330",
+    "company": "BP",
+    "title": "Data Scientist / ML Engineer",
+    "description": "BP - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "epic_games_331",
+    "company": "Epic Games",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Epic Games - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "gap_inc_332",
+    "company": "Gap Inc",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Gap Inc - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "h&m_333",
+    "company": "H&M",
+    "title": "Data Scientist / ML Engineer",
+    "description": "H&M - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "draftkings_334",
+    "company": "DraftKings",
+    "title": "Data Scientist / ML Engineer",
+    "description": "DraftKings - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "servicenow_335",
+    "company": "ServiceNow",
+    "title": "Data Scientist / ML Engineer",
+    "description": "ServiceNow - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "zendesk_336",
+    "company": "Zendesk",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Zendesk - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "disney_337",
+    "company": "Disney",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Disney - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "fractal_ai_338",
+    "company": "Fractal AI",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Fractal AI - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "franklin_templeton_339",
+    "company": "Franklin Templeton",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Franklin Templeton - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "metlife_340",
+    "company": "MetLife",
+    "title": "Data Scientist / ML Engineer",
+    "description": "MetLife - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "fidelity_investments_341",
+    "company": "Fidelity Investments",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Fidelity Investments - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "dassault_syst\u00e8mes_342",
+    "company": "Dassault Syst\u00e8mes",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Dassault Syst\u00e8mes - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "amd_343",
+    "company": "AMD",
+    "title": "Data Scientist / ML Engineer",
+    "description": "AMD - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "qualcomm_344",
+    "company": "Qualcomm",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Qualcomm - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "principal_financial_group_345",
+    "company": "Principal Financial Group",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Principal Financial Group - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "dell_346",
+    "company": "Dell",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Dell - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "hp_347",
+    "company": "HP",
+    "title": "Data Scientist / ML Engineer",
+    "description": "HP - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "london_stock_exchange_348",
+    "company": "London Stock Exchange",
+    "title": "Data Scientist / ML Engineer",
+    "description": "London Stock Exchange - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "societe_generale_349",
+    "company": "Societe Generale",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Societe Generale - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "mathworks_350",
+    "company": "MathWorks",
+    "title": "Data Scientist / ML Engineer",
+    "description": "MathWorks - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "yahoo_finance_351",
+    "company": "Yahoo Finance",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Yahoo Finance - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "axom_352",
+    "company": "AXOM",
+    "title": "Data Scientist / ML Engineer",
+    "description": "AXOM - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "viasat_353",
+    "company": "Viasat",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Viasat - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "lpl_financial_354",
+    "company": "LPL Financial",
+    "title": "Data Scientist / ML Engineer",
+    "description": "LPL Financial - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "netradyne_355",
+    "company": "Netradyne",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Netradyne - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "autodesk_356",
+    "company": "Autodesk",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Autodesk - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "boston_dynamics_357",
+    "company": "Boston Dynamics",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Boston Dynamics - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "intuit_358",
+    "company": "Intuit",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Intuit - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "us_bank_359",
+    "company": "US Bank",
+    "title": "Data Scientist / ML Engineer",
+    "description": "US Bank - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "lawrence_livermore_national_lab_360",
+    "company": "Lawrence Livermore National Lab",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Lawrence Livermore National Lab - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "arista_networks_361",
+    "company": "Arista Networks",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Arista Networks - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "marshall_wace_362",
+    "company": "Marshall Wace",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Marshall Wace - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "rockstar_games_363",
+    "company": "Rockstar Games",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Rockstar Games - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "texas_instruments_364",
+    "company": "Texas Instruments",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Texas Instruments - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "ibotta_365",
+    "company": "Ibotta",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Ibotta - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "divergent_technologies_366",
+    "company": "Divergent Technologies",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Divergent Technologies - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "fifth_third_bank_367",
+    "company": "Fifth Third Bank",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Fifth Third Bank - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "bloom_energy_368",
+    "company": "Bloom Energy",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Bloom Energy - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "ramp_369",
+    "company": "Ramp",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Ramp - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "schneider_electric_370",
+    "company": "Schneider Electric",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Schneider Electric - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "zs_associates_371",
+    "company": "ZS Associates",
+    "title": "Data Scientist / ML Engineer",
+    "description": "ZS Associates - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "intuitive_surgical_372",
+    "company": "Intuitive Surgical",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Intuitive Surgical - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "bose_373",
+    "company": "Bose",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Bose - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "micron_technology_374",
+    "company": "Micron Technology",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Micron Technology - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "match_group_375",
+    "company": "Match Group",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Match Group - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "zoox_376",
+    "company": "Zoox",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Zoox - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "calico_377",
+    "company": "Calico",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Calico - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "okta_378",
+    "company": "Okta",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Okta - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "dolby_laboratories_379",
+    "company": "Dolby Laboratories",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Dolby Laboratories - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "cvent_380",
+    "company": "Cvent",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Cvent - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "general_motors_381",
+    "company": "General Motors",
+    "title": "Data Scientist / ML Engineer",
+    "description": "General Motors - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "the_trade_desk_382",
+    "company": "The Trade Desk",
+    "title": "Data Scientist / ML Engineer",
+    "description": "The Trade Desk - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "world_bank_383",
+    "company": "World Bank",
+    "title": "Data Scientist / ML Engineer",
+    "description": "World Bank - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "http://c3.ai_384",
+    "company": "http://C3.ai",
+    "title": "Data Scientist / ML Engineer",
+    "description": "http://C3.ai - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "here_technologies_385",
+    "company": "HERE Technologies",
+    "title": "Data Scientist / ML Engineer",
+    "description": "HERE Technologies - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "avant_386",
+    "company": "Avant",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Avant - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "cisco_387",
+    "company": "Cisco",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Cisco - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "pepsico_388",
+    "company": "PepsiCo",
+    "title": "Data Scientist / ML Engineer",
+    "description": "PepsiCo - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "coca-cola_389",
+    "company": "Coca-Cola",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Coca-Cola - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "southwest_airlines_390",
+    "company": "Southwest Airlines",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Southwest Airlines - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "boeing_391",
+    "company": "Boeing",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Boeing - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "epic_systems_392",
+    "company": "Epic Systems",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Epic Systems - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "delta_airlines_393",
+    "company": "Delta Airlines",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Delta Airlines - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "snorkel_ai_394",
+    "company": "Snorkel AI",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Snorkel AI - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "marsh_&_mclennan_395",
+    "company": "Marsh & McLennan",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Marsh & McLennan - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "nutanix_396",
+    "company": "Nutanix",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Nutanix - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "7-eleven_397",
+    "company": "7-Eleven",
+    "title": "Data Scientist / ML Engineer",
+    "description": "7-Eleven - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "p&g_398",
+    "company": "P&G",
+    "title": "Data Scientist / ML Engineer",
+    "description": "P&G - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "pixar_399",
+    "company": "PIXAR",
+    "title": "Data Scientist / ML Engineer",
+    "description": "PIXAR - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "deepseek_400",
+    "company": "DeepSeek",
+    "title": "Data Scientist / ML Engineer",
+    "description": "DeepSeek - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "new_york_red_bulls_401",
+    "company": "New York Red Bulls",
+    "title": "Data Scientist / ML Engineer",
+    "description": "New York Red Bulls - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "kla_corporation_402",
+    "company": "KLA Corporation",
+    "title": "Data Scientist / ML Engineer",
+    "description": "KLA Corporation - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "deloitte_403",
+    "company": "Deloitte",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Deloitte - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "kenvue_404",
+    "company": "Kenvue",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Kenvue - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "kpmg_405",
+    "company": "KPMG",
+    "title": "Data Scientist / ML Engineer",
+    "description": "KPMG - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "meta_406",
+    "company": "Meta",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Meta - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "mathworks_407",
+    "company": "Mathworks",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Mathworks - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "yahoo_finance_408",
+    "company": "Yahoo Finance",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Yahoo Finance - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "7-eleven_409",
+    "company": "7-Eleven",
+    "title": "Data Scientist / ML Engineer",
+    "description": "7-Eleven - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "rakuten_410",
+    "company": "Rakuten",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Rakuten - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  },
+  {
+    "id": "optum_411",
+    "company": "Optum",
+    "title": "Data Scientist / ML Engineer",
+    "description": "Optum - Big Tech role",
+    "location": "Remote",
+    "sector": "Big Tech",
+    "tier": "A",
+    "region": "US",
+    "skills": [
+      "Python",
+      "SQL",
+      "ML",
+      "Statistics"
+    ]
+  }
+]

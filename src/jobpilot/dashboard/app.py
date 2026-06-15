@@ -1,15 +1,23 @@
-"""JobPilot Streamlit Dashboard — multi-page UI for job tracking, skill monitoring, and interview prep.
+"""JobPilot Streamlit Dashboard - multi-page UI for job tracking, skill monitoring, and interview prep.
 
 Pages:
   - Job Tracker: ranked jobs with scores, gaps, materials status
   - Skill Heatmap: candidate model confidence scores over time
   - Interview Session: run/view mock interview with real-time scores
   - Morning Report: generated daily report
+  - Controls: import jobs, run pipeline, manage scheduler
   - Settings: configure database, API keys, candidate profile
 """
 
 import os
 from pathlib import Path
+
+# Load .env before anything else so all pages see API keys + config
+try:
+    from dotenv import load_dotenv
+    load_dotenv(Path(__file__).parents[3] / ".env", override=False)
+except ImportError:
+    pass
 
 import streamlit as st
 
@@ -32,6 +40,7 @@ page = st.sidebar.radio(
         "Skill Heatmap",
         "Interview Session",
         "Morning Report",
+        "Controls",
         "Settings",
     ],
     index=0,
@@ -40,29 +49,33 @@ page = st.sidebar.radio(
 st.sidebar.markdown("---")
 st.sidebar.markdown(
     """
-    **JobPilot** — Autonomous career agent.
+    **JobPilot** - Autonomous career agent.
 
-    Searches jobs · Scores matches · Tailors resume · Runs interviews.
+    Searches jobs · Scores matches · Tailors resume
     """
 )
 
 # Load pages
 if page == "Job Tracker":
-    from . import pages_job_tracker
+    from jobpilot.dashboard import pages_job_tracker
     pages_job_tracker.render()
 
 elif page == "Skill Heatmap":
-    from . import pages_skill_heatmap
+    from jobpilot.dashboard import pages_skill_heatmap
     pages_skill_heatmap.render()
 
 elif page == "Interview Session":
-    from . import pages_interview
+    from jobpilot.dashboard import pages_interview
     pages_interview.render()
 
 elif page == "Morning Report":
-    from . import pages_report
+    from jobpilot.dashboard import pages_report
     pages_report.render()
 
+elif page == "Controls":
+    from jobpilot.dashboard import pages_controls
+    pages_controls.render()
+
 elif page == "Settings":
-    from . import pages_settings
+    from jobpilot.dashboard import pages_settings
     pages_settings.render()

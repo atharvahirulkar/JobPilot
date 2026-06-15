@@ -4,6 +4,12 @@ import argparse
 import json
 from pathlib import Path
 
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
 from .etl import ResumeETL
 from .job_imports import load_jobs_file
 from .jd_parser import JDParser
@@ -101,7 +107,7 @@ def main():
 
     # W7 command
     p_dashboard = sub.add_parser("dashboard", help="[W7] Launch Streamlit dashboard")
-    p_dashboard.add_argument("--port", type=int, default=8501)
+    p_dashboard.add_argument("--port", type=int, default=8502)
     p_dashboard.add_argument("--host", default="localhost")
 
     args = parser.parse_args()
@@ -202,7 +208,9 @@ def main():
         resume_text = Path(args.resume_text).read_text() if args.resume_text else ""
         from .resume_tailor import ResumeTailor
         bullets = ResumeTailor().tailor(resume_text, job).bullets if resume_text else []
-        cl_request = build_request("Atharva Hirulkar", job, bullets)
+        import os as _os
+        candidate_name = _os.getenv("CANDIDATE_NAME", "Candidate")
+        cl_request = build_request(candidate_name, job, bullets)
         cl_gen = LLMCoverLetterGenerator()
         cl_text = cl_gen.generate(cl_request)
 

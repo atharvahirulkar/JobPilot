@@ -12,6 +12,10 @@ class CoverLetterRequest:
     title: str
     resume_highlights: List[str]
     skills: List[str]
+    candidate_email: str = ""
+    candidate_phone: str = ""
+    candidate_linkedin: str = ""
+    candidate_portfolio: str = ""
 
 
 class CoverLetterGenerator:
@@ -34,22 +38,50 @@ class CoverLetterGenerator:
             f"This aligns well with your needs for strong execution using {skills_text}."
         )
 
+        # Build contact line for signature
+        contact_parts = []
+        if request.candidate_email:
+            contact_parts.append(request.candidate_email)
+        if request.candidate_phone:
+            contact_parts.append(request.candidate_phone)
+        if request.candidate_linkedin:
+            contact_parts.append(request.candidate_linkedin)
+        if request.candidate_portfolio:
+            contact_parts.append(request.candidate_portfolio)
+        contact_line = "  |  ".join(contact_parts)
+
+        sig = f"Sincerely,\n{request.candidate_name}"
+        if contact_line:
+            sig += f"\n{contact_line}"
+
         close = (
             f"I would value the opportunity to discuss how I can contribute to {request.company} from day one. "
             f"Thank you for your time and consideration.\n\n"
-            f"Sincerely,\n{request.candidate_name}"
+            f"{sig}"
         )
 
         return "\n\n".join([intro, fit, close]).strip()
 
 
-def build_request(candidate_name: str, job: Dict[str, Any], tailored_bullets: List[str]) -> CoverLetterRequest:
+def build_request(
+    candidate_name: str,
+    job: Dict[str, Any],
+    tailored_bullets: List[str],
+    candidate_email: str = "",
+    candidate_phone: str = "",
+    candidate_linkedin: str = "",
+    candidate_portfolio: str = "",
+) -> CoverLetterRequest:
     return CoverLetterRequest(
         candidate_name=candidate_name,
         company=str(job.get("company", "the company")) or "the company",
         title=str(job.get("title", "the role")) or "the role",
         resume_highlights=tailored_bullets,
         skills=[str(item) for item in (job.get("skills", []) or [])],
+        candidate_email=candidate_email,
+        candidate_phone=candidate_phone,
+        candidate_linkedin=candidate_linkedin,
+        candidate_portfolio=candidate_portfolio,
     )
 
 
@@ -116,8 +148,18 @@ class LLMCoverLetterGenerator:
         skills_text = ", ".join(request.skills[:8]) if request.skills else "Python, SQL, machine learning"
         highlights  = "; ".join(request.resume_highlights[:3]) if request.resume_highlights else ""
 
+        # Build candidate context line (name + any contact info provided)
+        candidate_line = request.candidate_name or "the candidate"
+        contact_bits = [x for x in [
+            request.candidate_email,
+            request.candidate_linkedin,
+            request.candidate_portfolio,
+        ] if x]
+        if contact_bits:
+            candidate_line += " (" + " | ".join(contact_bits) + ")"
+
         prompt = (
-            f"Candidate: Atharva Hirulkar — MS Data Science, UC San Diego (graduating Dec 2026)\n"
+            f"Candidate: {candidate_line}\n"
             f"Applying for: {request.title} at {request.company}\n"
             f"JD key skills: {skills_text}\n"
             f"Relevant highlights from resume: {highlights}\n\n"
