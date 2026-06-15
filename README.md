@@ -20,7 +20,7 @@ Job searching is broken. You spend hours manually scanning portals, copy-pasting
 
 ## What It Does
 
-Run on-demand, or schedule a 5 AM cron — JobPilot runs the full pipeline autonomously while you sleep:
+Run on-demand, or schedule a 5 AM cron - JobPilot runs the full pipeline autonomously while you sleep:
 
 ```
 🔍  Scrapes 412 curated target companies for new DS/MLE/SWE/Quant roles
@@ -162,7 +162,7 @@ docs/screenshots/
 | RAG evaluation | RAGAS - faithfulness · relevance · answer quality |
 | Database | PostgreSQL - jobs · candidate model · answer history |
 | ETL | PyPDF2 + spaCy + LLM extraction |
-| Job scraping | Playwright + free ATS JSON APIs (Greenhouse · Lever · Ashby · Workable) — 412 curated companies |
+| Job scraping | Playwright + free ATS JSON APIs (Greenhouse · Lever · Ashby · Workable) - 412 curated companies |
 | PDF generation | LaTeX → `pdflatex` (optional; pipeline skips PDFs gracefully if absent) |
 | Observability | LangSmith - every agent node traced end-to-end |
 | Frontend | Streamlit - job tracker · skill heatmap · mock interview UI · morning report |
@@ -239,7 +239,7 @@ jobpilot/
 ## Quickstart
 
 > **Prerequisites:** Python 3.11+
-> **Optional:** Docker (Postgres + Qdrant) · OpenAI API key · `pdflatex` (for PDF generation — `brew install --cask basictex` on macOS) · Ollama (local LLM)
+> **Optional:** Docker (Postgres + Qdrant) · OpenAI API key · `pdflatex` (for PDF generation - `brew install --cask basictex` on macOS) · Ollama (local LLM)
 >
 > With zero setup you get: SQLite, local sentence-transformer scoring, no PDFs. With Docker + an OpenAI key you get the full LLM pipeline + Postgres + Qdrant.
 
