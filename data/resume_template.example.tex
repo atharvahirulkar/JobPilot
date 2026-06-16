@@ -1,0 +1,178 @@
+%-------------------------
+% Your Name — General Resume (example template — copy to resume_template.tex and fill in)
+%-------------------------
+
+\documentclass[letterpaper,10.5pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{geometry}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\geometry{
+  letterpaper,
+  top=0.38in,
+  bottom=0.38in,
+  left=0.5in,
+  right=0.5in
+}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\normalsize
+}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{-2pt}}}
+}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-6pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-6pt}
+}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-4pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\LARGE \textbf{Your Name}}\\
+    \vspace{4pt}
+    \small
+    \href{mailto:your.email@example.com}{your.email@example.com} $|$
+    \href{tel:+10000000000}{+1 000 000-0000} $|$
+    \href{https://www.linkedin.com/in/yourhandle/}{linkedin: yourhandle} $|$
+    \href{https://yoursite.com}{yoursite.com}
+\end{center}
+\begin{center}
+    \normalsize ML Systems Engineer $|$ Data Engineer $|$ MLOps $|$ Agentic AI
+\end{center}
+\vspace{-3pt}
+\noindent\rule{\textwidth}{1.5pt}
+\vspace{2pt}
+\noindent\small\textit{I build the infrastructure that data and ML systems run on, from real-time pipelines and cloud automation to agentic AI systems in production.}
+\vspace{-4pt}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of California, San Diego}{San Diego, CA}
+      {Master of Science, Data Science -- GPA 3.8/4.0}{Sept 2025 -- In Progress, Expected Dec 2026}
+      \resumeItemListStart
+        \resumeItem{Coursework: ML Systems, Statistical NLP, Scalable Data Systems, Advanced Data Mining, Optimization}
+      \resumeItemListEnd
+    \vspace{5pt}
+    \resumeSubheading
+      {Savitribai Phule Pune University}{Pune, India}
+      {Bachelor of Engineering, Computer Engineering -- GPA 3.91/4.0}{Aug 2019 -- Jun 2023}
+  \resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{ML Systems \& MLOps:} PyTorch, Scikit-learn, XGBoost, LightGBM, MLflow, PSI Drift Monitoring, Model Serving, Experiment Tracking \\[2pt]
+     \textbf{Agentic AI \& LLMs:} LangChain, OpenAI API, Claude API, Gemini API, Hugging Face, RAG Systems, FAISS, Qdrant, Prompt Engineering \\[2pt]
+     \textbf{Data Engineering:} Apache Kafka, PySpark, Snowflake, TimescaleDB, PostgreSQL, Neo4j, Airflow, ETL/ELT, SQL, Python \\[2pt]
+     \textbf{Cloud, DevOps \& Backend:} AWS (ECS Fargate, S3, Athena, ECR), Azure, OCI, Docker, Kubernetes, Terraform, Ansible, GitHub Actions, FastAPI, Grafana, Prometheus, Linux
+    }}
+ \end{itemize}
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+
+    \resumeProjectHeading
+      {\textbf{FraudLens} $|$ \emph{XGBoost, LightGBM, PyTorch, FastAPI, AWS ECS Fargate, MLflow} $|$ \href{https://github.com/yourhandle/fraudlens}{\faLink}}{}
+      \resumeItemListStart
+        \resumeItem{Fraud systems flag transactions without analyst-readable context. \textbf{Built XGBoost/LightGBM ensemble plus PyTorch model} with agentic GPT-4o-mini and Qdrant RAG pipeline generating SHAP-grounded diagnostics per transaction; \textbf{deployed} containerized FastAPI service on AWS ECS Fargate with CI/CD and nightly Airflow batch scoring. Achieved \textbf{AUC-PR $>$0.88} with human-readable explanations on every flagged transaction.}
+      \resumeItemListEnd
+    \vspace{2pt}
+    \resumeProjectHeading
+      {\textbf{SignalStack} $|$ \emph{Kafka, PySpark, TimescaleDB, FastAPI, MLflow, Grafana} $|$ \href{https://github.com/yourhandle/SignalStack}{\faLink}}{}
+      \resumeItemListStart
+        \resumeItem{Real-time ML on market data requires simultaneous feature correctness and drift awareness. \textbf{Built streaming platform} from scratch: Kafka ingestion, PySpark structured streaming with point-in-time correct windowed features, TimescaleDB storage, and PyTorch model serving via FastAPI with MLflow registry and PSI drift alerting. Achieved \textbf{$<$10ms p99} latency sustaining \textbf{$>$1,000 events/sec} with Grafana/Prometheus observability.}
+      \resumeItemListEnd
+    \vspace{2pt}
+    \resumeProjectHeading
+      {\textbf{JobPilot} $|$ \emph{FastAPI, LangChain, FAISS, PostgreSQL, MLflow, OpenAI} $|$ \href{https://github.com/yourhandle/JobPilot}{\faLink}}{}
+      \resumeItemListStart
+        \resumeItem{LLM evaluation across providers is typically ad hoc and unreproducible. \textbf{Architected stateful LLM agent with persistent memory}, multi-step planning, and tool-use over PostgreSQL; hybrid FAISS dense and BM25 sparse RAG pipeline; closed-loop MLflow improvement pipeline. \textbf{Delivered reproducible benchmarks} across GPT-4o, Claude 3.5 Sonnet, and Gemini 1.5 Pro on accuracy and latency.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {State Street Corporation}{Bengaluru, India}
+      {Data Engineer}{Apr 2025 -- Aug 2025}
+      \resumeItemListStart
+        \resumeItem{As technical lead for a multi-cloud platform serving a \$43.8 trillion global custodian, \textbf{automated OCI and Azure infrastructure via Terraform IaC and Ansible}, reducing manual overhead by \textbf{$\sim$40\%} and sustaining \textbf{99.9\%+ uptime} across distributed production systems.}
+        \resumeItem{Tasked with migrating enterprise databases across \textbf{150+ application teams}, \textbf{designed} and \textbf{implemented} IAM policies, RBAC, authentication workflows, and user provisioning; drove Azure DevOps CI/CD adoption cutting release cycles by \textbf{40\%} with \textbf{99.8\% deployment success}.}
+      \resumeItemListEnd
+    \vspace{3pt}
+    \resumeSubheading
+      {State Street Corporation}{Bengaluru, India}
+      {Platform Engineer}{Jul 2023 -- Mar 2025}
+      \resumeItemListStart
+        \resumeItem{Tasked with building reliable data infrastructure for downstream ML and analytics workflows, \textbf{engineered Snowflake ETL pipelines} processing \textbf{5M+ records/day} at \textbf{99.9\%+ SLA uptime}, with pipeline reliability standards adopted across engineering teams.}
+        \resumeItem{To eliminate infrastructure bottlenecks slowing cross-team delivery, \textbf{provisioned} and \textbf{automated multi-cloud environments} (OCI, AWS, Azure) cutting provisioning time by \textbf{$\sim$50\%}; orchestrated scheduling via Airflow DAGs.}
+      \resumeItemListEnd
+    \vspace{3pt}
+    \resumeSubheading
+      {State Street Corporation}{Hyderabad, India}
+      {Payment Systems Analyst, Intern}{Jan 2023 -- Jun 2023}
+      \resumeItemListStart
+        \resumeItem{Tasked with improving visibility of \textbf{$\sim$\$1B daily transaction flows} across LYNX, CHIPS, and TARGET2, \textbf{built real-time monitoring pipelines} achieving \textbf{98\% failure detection within 30 seconds} and raised ISO 20022 validation accuracy from \textbf{96\% to 99.4\%}.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+      OCI Architect Associate $|$ OCI Foundations Associate $|$ Neo4j Graph Data Science $|$ Qdrant Vector DB Essentials $|$ JP Morgan Quantitative Research
+    }}
+ \end{itemize}
+
+\end{document}

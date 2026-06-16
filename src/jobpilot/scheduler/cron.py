@@ -208,8 +208,13 @@ def _tailor_top_matches(
 
     template_path = Path("data/resume_template.tex")
     if not template_path.exists():
-        log.warning("resume_template.tex not found — skipping PDF generation")
-        return 0
+        example = Path("data/resume_template.example.tex")
+        if example.exists():
+            log.warning("resume_template.tex not found — using example template (placeholder PII)")
+            template_path = example
+        else:
+            log.warning("resume_template.tex not found — skipping PDF generation")
+            return 0
 
     # Check pdflatex available
     if not shutil.which("pdflatex"):
