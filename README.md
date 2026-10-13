@@ -39,6 +39,9 @@ Run on-demand, or schedule a 5 AM cron - JobPilot runs the full pipeline autonom
 🎯  Auto-queues a personalized mock interview session
       Questions weighted by YOUR weakest skill areas for today's top job
 
+🎙️  Runs it as a spoken interview (optional, ElevenLabs)
+      Interviewer reads questions aloud · you answer out loud · spoken feedback
+
 📧  Delivers everything
       Email digest + Streamlit dashboard - ready when you wake up
 ```
@@ -147,6 +150,7 @@ docs/screenshots/
 | Cover letter per job | ✅ Generated, not templated | ❌ Manual |
 | Skill gap analysis | ✅ Per JD, every morning | ❌ None |
 | Persistent candidate memory | ✅ Improves over sessions | ❌ None |
+| Spoken mock interviews | ✅ ElevenLabs TTS + Scribe STT | ❌ None |
 | Interview prep per role | ✅ Auto-queued | ❌ None |
 | Full observability | ✅ LangSmith traces | ❌ N/A |
 
@@ -165,6 +169,7 @@ docs/screenshots/
 | Job scraping | Playwright + free ATS JSON APIs (Greenhouse · Lever · Ashby · Workable) - 412 curated companies |
 | PDF generation | LaTeX → `pdflatex` (optional; pipeline skips PDFs gracefully if absent) |
 | Observability | LangSmith - every agent node traced end-to-end |
+| Voice | ElevenLabs Flash v2.5 (streaming TTS) · Scribe (speech-to-text) · content-addressed audio cache |
 | Frontend | Streamlit - job tracker · skill heatmap · mock interview UI · morning report |
 | Scheduler | APScheduler - 5 AM cron (local) + manual CLI |
 | Deployment | Local (Linux/macOS) or Docker |
@@ -191,6 +196,11 @@ jobpilot/
 │   │   └── updater.py               # Post-session update logic
 │   ├── pipeline/
 │   │   └── graph.py                 # LangGraph state machine + interview loop
+│   ├── voice/
+│   │   ├── client.py                # ElevenLabs streaming TTS + Scribe STT, retries
+│   │   ├── cache.py                 # Content-addressed audio cache (atomic, LRU)
+│   │   ├── interviewer.py           # Spoken questions/feedback, parallel prefetch
+│   │   └── telemetry.py             # Time-to-first-audio p50/p95, cache hits, chars
 │   ├── scheduler/
 │   │   └── cron.py                  # APScheduler 5 AM cron job
 │   ├── dashboard/
@@ -276,6 +286,53 @@ python -m jobpilot.main interview path/to/jd.json --questions 4
 # 8. Check your skill confidence scores
 python -m jobpilot.main skills
 ```
+
+---
+
+## Voice Mode (ElevenLabs)
+
+Mock interviews can run as real spoken conversations. Set `ELEVENLABS_API_KEY`
+in `.env` and toggle **Voice mode** on the Mock Interview page.
+
+```
+LangGraph generates questions
+        │
+        ▼
+prefetch(): every question synthesized in parallel (thread pool)
+        │      → content-addressed cache, so the session starts with zero wait
+        ▼
+Question plays (ElevenLabs Flash v2.5, streaming endpoint)
+        │
+        ▼
+You answer out loud → ElevenLabs Scribe → editable transcript
+        │
+        ▼
+LLM-as-judge scores it → short spoken verdict → next question
+        │
+        ▼
+Session wrap-up spoken + telemetry panel (first-audio p50/p95, cache hit rate)
+```
+
+**Engineering details**
+
+| Concern | How it's handled |
+|---|---|
+| Latency | Streaming TTS endpoint with time-to-first-audio measured per call; all questions prefetched concurrently before Q1 plays |
+| Cost | Audio cached by `sha256(text, voice, model, format, settings)`, so repeated questions and replays bill zero characters |
+| Reliability | Retries only on 429/5xx/network errors, exponential backoff with jitter, honors `Retry-After`; 4xx fails fast |
+| Degradation | No key or any API failure → the session continues in text mode, never crashes |
+| Concurrency safety | Atomic cache writes (temp file + `os.replace`), LRU eviction under a size cap |
+| Observability | Every call (and cache hit) logged to `voice_events`; `jobpilot voice_stats` prints p50/p95 and usage |
+
+```bash
+python -m jobpilot.main voice_check   # synthesize a test line, report latency, prove the cache hit
+python -m jobpilot.main voice_stats   # first-audio p50/p95, cache hit rate, chars billed, errors
+```
+
+Tests: `pytest src/jobpilot/tests/test_voice.py` runs against a mocked ElevenLabs API
+(retries, fail-fast on 401, cache hits, concurrent prefetch, STT, telemetry), so no key is needed.
+
+---
 
 ## The Story Behind This
 

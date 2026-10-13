@@ -62,6 +62,24 @@ class InterviewAnswer(Base):
     answered_at = Column(DateTime, nullable=False, default=datetime.utcnow)
 
 
+
+class VoiceEvent(Base):
+    """One ElevenLabs call (or cache hit): used for latency and cost telemetry."""
+
+    __tablename__ = "voice_events"
+    id = Column(Integer, primary_key=True)
+    session_id = Column(String(64), index=True, nullable=True)
+    op = Column(String(16), nullable=False)          # "tts" | "stt"
+    model = Column(String(64), nullable=False)
+    chars = Column(Integer, nullable=False, default=0)  # TTS billing unit
+    audio_bytes = Column(Integer, nullable=False, default=0)
+    ttfb_ms = Column(Float, nullable=True)             # time to first audio byte
+    total_ms = Column(Float, nullable=False, default=0.0)
+    cache_hit = Column(Integer, nullable=False, default=0)
+    status = Column(String(32), nullable=False, default="ok")
+    attempts = Column(Integer, nullable=False, default=1)
+    created_at = Column(DateTime, nullable=False, default=datetime.utcnow)
+
 def init_db(db_url: str) -> sessionmaker:
     engine = create_engine(db_url, echo=False)
     Base.metadata.create_all(engine)

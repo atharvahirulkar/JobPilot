@@ -110,6 +110,16 @@ def main():
     p_dashboard.add_argument("--port", type=int, default=8502)
     p_dashboard.add_argument("--host", default="localhost")
 
+    # W8: voice (ElevenLabs)
+    p_vcheck = sub.add_parser("voice_check", help="[W8] Smoke-test ElevenLabs TTS: latency, caching, output file")
+    p_vcheck.add_argument("--text", default="Tell me about a time you owned a production incident from start to finish.")
+    p_vcheck.add_argument("--out", default="outputs/voice_check.mp3")
+    p_vcheck.add_argument("--db-url")
+
+    p_vstats = sub.add_parser("voice_stats", help="[W8] Show voice latency, cache hit rate, and usage")
+    p_vstats.add_argument("--db-url")
+    p_vstats.add_argument("--limit", type=int, default=1000)
+
     args = parser.parse_args()
     if args.cmd == "etl":
         etl = ResumeETL()
@@ -284,6 +294,48 @@ def main():
                 bar  = "█" * int(conf * 10) + "░" * (10 - int(conf * 10))
                 flag = " ← weak" if conf < 0.6 else ""
                 print(f"{s['skill_name']:<30} {conf:>10.2f}  {bar}{flag}")
+
+    # W8
+    elif args.cmd == "voice_check":
+        from .voice import VoiceInterviewer
+
+        voice = VoiceInterviewer(db_url=args.db_url, session_id="voice_check")
+        if not voice.enabled:
+            print("Voice disabled: set ELEVENLABS_API_KEY in .env")
+            return
+        import time as _time
+        t0 = _time.perf_counter()
+        audio = voice.speak(args.text)
+        first = (_time.perf_counter() - t0) * 1000
+        if not audio:
+            print(f"TTS failed: {voice.last_error}")
+            return
+        t1 = _time.perf_counter()
+        voice.speak(args.text)
+        second = (_time.perf_counter() - t1) * 1000
+        out = Path(args.out)
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_bytes(audio)
+        print(f"Model: {voice.config.tts_model} · voice: {voice.config.voice_id}")
+        print(f"First call:  {first:7.0f} ms  ({len(audio):,} bytes)")
+        print(f"Second call: {second:7.0f} ms  (served from cache)")
+        print(f"Wrote {out}")
+
+    elif args.cmd == "voice_stats":
+        from .voice.telemetry import load_metrics, summarize
+
+        s = summarize(load_metrics(args.db_url, limit=args.limit))
+        fmt = lambda v, unit="": "-" if v is None else f"{v:.0f}{unit}"
+        print("\nVoice telemetry")
+        print("─" * 40)
+        print(f"TTS calls            {s['tts_calls']}")
+        hit = s['tts_cache_hit_rate']
+        print(f"Cache hit rate       {'-' if hit is None else f'{hit:.0%}'}")
+        print(f"First audio p50      {fmt(s['tts_ttfb_p50_ms'], ' ms')}")
+        print(f"First audio p95      {fmt(s['tts_ttfb_p95_ms'], ' ms')}")
+        print(f"Chars billed         {s['tts_chars_billed']}")
+        print(f"STT calls            {s['stt_calls']}  (p50 {fmt(s['stt_p50_ms'], ' ms')})")
+        print(f"Errors               {s['errors']}")
 
     else:
         parser.print_help()
